@@ -9,7 +9,7 @@ def main():
     myinput = ""
     
     #creates bridge to database
-    connection = sqlite3.connect("sample_database.db")
+    connection = sqlite3.connect("top50.db")
 
     #creates "point of command"
     pointer = connection.cursor()
@@ -23,13 +23,13 @@ def main():
         # checks if user asks for commands help
         if (myinput == "help"):
             help()
-        if else (myinput == "quit"):
+        elif (myinput == "quit"):
             #disconnects from database and ends program
             connection.close()
             break
         else:
             # listen for sql input
-            command = "CREATE ... something ..., user input here"
+            command = "SELECT ... user input sql"
 
             #execute sql statement
             pointer.execute(command)

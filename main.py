@@ -3,6 +3,7 @@
 
 # possibly needed module for later sql functionality
 import sqlite3
+import pandas
 
 def main():
     # initialize database & parser
@@ -18,7 +19,7 @@ def main():
     while(myinput != "quit"):
         
         # gets user input
-        myinput = raw_input("Waiting for user input: ")
+        myinput = input("Waiting for user input: ")
 
         # checks if user asks for commands help
         if (myinput == "help"):

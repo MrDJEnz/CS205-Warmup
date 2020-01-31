@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffc3e2e-854c-448b-8023-96f74ede89fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CS205-Warmup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS205-Warmup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/top50.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city_spec.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_to_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_to_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top50.db" beforeDir="false" afterPath="$PROJECT_DIR$/top50.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.csv_to_db">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="csv_to_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS205-Warmup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +76,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_to_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS205-Warmup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.csv_to_db" />
       </list>
     </recent_temporary>
@@ -109,7 +145,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580133231510</updated>
-      <workItem from="1580305979364" duration="908000" />
+      <workItem from="1580305979364" duration="1248000" />
+      <workItem from="1580410720955" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - KY">
       <created>1580133642598</created>
@@ -129,7 +166,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -140,6 +179,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - KY" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CS205_Warmup$csv_to_db.coverage" NAME="csv_to_db Coverage Results" MODIFIED="1580306873146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS205_Warmup$csv_to_db.coverage" NAME="csv_to_db Coverage Results" MODIFIED="1580307328806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS205_Warmup$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1580307346323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

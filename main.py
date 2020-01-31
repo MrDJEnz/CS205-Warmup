@@ -17,27 +17,32 @@ def main():
 
     #
     while(myinput != "quit"):
-        
-        # gets user input
-        myinput = input("Waiting for user input: ")
+        try:
+            # gets user input
+            myinput = str(input("Waiting for user input: "))
 
-        # checks if user asks for commands help
-        if (myinput == "help"):
-            help()
-        elif (myinput == "quit"):
-            #disconnects from database and ends program
-            connection.close()
-            break
-        else:
-            # listen for sql input
-            command = "SELECT ... user input sql"
+            # checks if user asks for commands help
+            if (myinput == "help"):
+                help()
+            elif (myinput == "quit"):
+                #disconnects from database and ends program
+                connection.close()
+                break
+            else:
+                # listen for sql input
+                command = myinput
+                #command = "SELECT TEMPORARY_COLOUMN"
 
-            #execute sql statement
-            pointer.execute(command)
+                #execute sql statement
+                pointer.execute(command)
 
-            #saves changes to database
-            connection.commit()
-
+                ##saves changes to database
+                #connection.commit()
+            print(myinput)
+        except (RuntimeError):
+            print("palceholder error")
+        #except (sqlite3.OperationalError):
+        #    print("SQL Syntax Error")
 
 
         
@@ -45,6 +50,7 @@ def main():
 # displays list of commands
 def help():
     print("help screen ... example command")
-
+    print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
+    
             
 main()

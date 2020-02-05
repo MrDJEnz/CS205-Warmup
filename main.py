@@ -19,6 +19,32 @@ def main():
     # pointer = connection.cursor()
 
     #
+    
+    ###################### JD 
+    #connection = sqlite3.connect("Pizza.db")
+
+    #pointer = connection.cursor()
+    #TODO: need to handle Tables being created only once
+
+    #connection.execute('''CREATE TABLE PizzaPrimary ([Id] INTEGER PRIMARY KEY,[State] text, [PostalCode] integer,[Categories] text, [PriceRangeMax] integer)''')
+          
+    #connection.execute('''CREATE TABLE PizzaSecondary([Id]INTEGER PRIMARY KEY,[City] text,[Name] integer,[Address] text, [Latitude] integer,[Longitude] integer)''')
+
+    #read_PizzaPrim = pd.read_csv (r'PizzaPrim.csv')
+    #read_PizzaPrim.to_sql('PizzaPrimary', connection, if_exists='append', index = False) 
+    # Insert the values from the csv file into the table 'CLIENTS' 
+
+    #read_PizzaNotPrim = pd.read_csv (r'PizzaNotPrim.csv')
+    #read_PizzaNotPrim.to_sql('PizzaSecondary', connection, if_exists='replace', index = False) # Replace the values from the csv file into the table 'COUNTRY'
+    
+    ########################### JD
+    
+    
+    
+    
+    
+    
+    
     while(myinput != "quit"):
         try:
             # gets user input

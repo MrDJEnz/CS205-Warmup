@@ -1,0 +1,2283 @@
+1,AR,72120,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+2,AZ,85012,"Pizza,Pizza Place,Restaurants",25
+3,OH,45209,"Restaurant,Pizza Place,Restaurants",25
+4,MI,48071,"Pizza,Carry-out food,Pizza Place,Restaurants",40
+5,MD,21224,"Pizza,American restaurants,Pizza Place,Pizza equipment and supplies,Restaurants",25
+6,CA,94709,Pizza Place,25
+7,FL,32309,Pizza Place,25
+8,MI,49512,"Restaurant,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+9,CA,91741,"Pizza,Restaurant,Pizza Place",25
+10,TX,79912,"Restaurant,Pizza Place,Restaurants",25
+11,NC,27613,"Pizza,Restaurant,Pizza Place,Restaurants",25
+12,PA,19127,"Pizza,American restaurants,Pizza Place,Restaurants",25
+13,LA,70119,Pizza Place,40
+14,FL,32720,"Restaurant,Pizza Place,Restaurants",25
+15,NY,10075,"Restaurant,Pizza Place Upper East Side,Pizza Place",40
+16,FL,32257,"Restaurant,Pizza Place",25
+17,MI,48187,"Indian Restaurant,Pizza Place",25
+18,CA,95035,"Pizza,Restaurant,Karaoke,Pizza Place,Restaurants",25
+19,NY,12603,"Restaurant,Pizza Place,Restaurants",25
+20,TX,76010,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+21,AZ,85710,Pizza Place,40
+22,PA,18977,"Italian Restaurant,Pizza Place",25
+23,MI,49684,Pizza Place,25
+24,IN,46360,"Restaurant,Pizza Place,Restaurants",25
+25,PA,18974,"American Restaurant,Pizza Place",40
+26,NY,13461,"Pizza,Pizza Place,Restaurants",25
+27,CA,91205,Pizza Place,25
+28,CO,80203,"Pizza,Restaurant,Pizza Place",25
+29,NY,11801,"Pizza,Restaurant,Italian Restaurant,Pizza Place,Restaurants",25
+30,NY,14225,Pizza Place,25
+31,AZ,85308,"Pizza,Restaurant,Fast Food,Pizza Place",25
+32,OH,43031,"Pizza,Restaurant,Pizza Place,Restaurants",30
+33,NV,89081,"Restaurant,Pizza Place",25
+34,LA,71301,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+35,AZ,85253,"Pizza Place,Pizza Place Resort Corridor",40
+36,NC,27403,"Restaurant,Pizza Place Brice Street Area,Pizza Place",40
+37,OH,44512,Pizza Place,25
+38,TX,77064,Pizza Place,25
+39,TX,79606,"Pizza Place,Restaurants",25
+40,AZ,85027,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+41,IA,52240,"Restaurant,Pizza Place",25
+42,FL,32821,"Italian Restaurant,Pizza Place",40
+43,NC,28227,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+44,NY,11377,"Italian Restaurant,Pizza Place",40
+45,OK,73003,"Restaurant,Pizza Place",25
+46,NY,10002,"Restaurant,Pizza Place",25
+47,NY,11570,Pizza Place,25
+48,NY,10007,Pizza Place,25
+49,PA,19034,Pizza Place,25
+50,CA,92508,"Pizza,Italian Restaurant,Restaurant,Pizza Place,Restaurants",25
+51,AZ,85268,"Restaurant,Pizza Place",25
+52,CA,91007,Pizza Place,25
+53,FL,32714,"Italian Restaurant,Pizza Place",25
+54,CA,94501,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+55,NM,87501,"Pizza,Pizza Place,Restaurants",25
+56,LA,70503,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+57,IN,46204,"Pizza,Pizza Place,Restaurants",40
+58,WI,53235,"Restaurant,Pizza Place",25
+59,CA,90245,"Restaurant,Pizza Place",40
+60,VA,23114,"Pizza,Restaurant,Pizza Place Midlothian,Pizza Place,Restaurants,Italian Restaurants",25
+61,CO,81101,"Italian Restaurant,Pizza Place",40
+62,FL,32714,Pizza Place,25
+63,CO,80521,"Restaurant,Pizza Place,Restaurants",25
+64,NY,11220,"Cheesesteaks,Pizza,Restaurant,Italian,Pizza Place",25
+65,MI,48047,"Restaurant,Pizza Place,Restaurants",40
+66,OR,97477,"Restaurant,Pizza Place",25
+67,MN,55112,"Bar,Pizza Place",25
+68,NC,27604,Pizza Place,25
+69,PA,17601,Pizza Place,25
+70,CA,92677,"Pizza,Restaurant,Pizza Place,Restaurants",25
+71,TN,37411,Pizza Place,25
+72,MD,21201,"Rock Club,Pizza Place and Rock Club Charles North,Pizza Place and Rock Club,Pizza Place",40
+73,WA,98042,"Burger Joint,Pizza Place",25
+74,SC,29631,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+75,VA,23707,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+76,IA,52240,"Pizza,Restaurant,Pizza Place,Restaurants",25
+77,IN,47711,"Restaurant,Pizza Place",40
+78,MI,48185,"Pizza,Restaurant,Pizza Place,Restaurants",25
+79,OH,44124,"Italian Restaurant,Pizza Place",25
+80,PA,19116,"Pizza,Restaurant,Pizza Restaurants,American,American restaurants,Pizza Place,Restaurants",25
+81,MI,48335,"Restaurant,Pizza Place",25
+82,FL,32819,Pizza Place,25
+83,MS,39560,"Pizza,Pizza Place",25
+84,IN,47711,Pizza Place,25
+85,MI,48044,Pizza Place,25
+86,MO,63101,"Pizza Place Downtown East,Pizza Place",25
+87,PA,19148,Pizza Place,25
+88,NY,10583,"Italian Restaurant,Pizza Place",40
+89,AZ,85281,"Indian Restaurant,Pizza Place",40
+90,MD,21921,Pizza Place,25
+91,AZ,85208,"Buffet,Pizza Place",25
+92,MD,21221,Pizza Place,25
+93,NY,11222,"Restaurant,Pizza Place",25
+94,CA,94114,"Restaurant,Pizza Place",40
+95,FL,34668,Pizza Place,25
+96,PA,19067,Pizza Place,25
+97,GA,31401,Pizza Place,25
+98,IL,62220,Pizza Place,25
+99,OH,43035,"Restaurant,Pizza Place",25
+100,NV,89521,"Pizza Place,Restaurants",25
+101,VA,23060,"Italian Restaurant,Pizza Place",25
+102,MS,39501,Pizza Place,25
+103,TN,37203,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+104,CA,95608,"Restaurant,Pizza Place",25
+105,DE,19958,Pizza Place,25
+106,MI,48858,"Pizza,Restaurant,Pizza Place,Restaurants",25
+107,VA,22304,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+108,CA,94509,"Restaurant,Pizza Place",25
+109,AZ,85225,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+110,IL,62298,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+111,IN,46060,"Pizza,Restaurant,Pizza Place,Restaurants",25
+112,GA,30064,"Restaurant,Pizza Place",25
+113,NC,27587,"Pizza,American restaurants,Pizza Place,Restaurants",25
+114,CA,92107,"Brewery,Pizza Place",40
+115,SC,29403,"Pizza,Pizza Place Cannonborough - Elliottborough,Pizza Place,Restaurants",25
+116,MO,65737,Pizza Place,25
+117,KS,66044,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants,Pizza Place Oread",25
+118,IL,60462,"Italian Restaurant,Pizza Place",25
+119,NY,11416,"Pizza,Restaurant,Pizza Place,Pizza Restaurant",25
+120,NY,11212,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+121,NY,11729,"Pizza,Restaurant,Pizza Place,Restaurants",25
+122,FL,33897,"Pizza,Delicatessens,American restaurants,Pizza Place,Restaurants",25
+123,TX,77706,"Pizza,Restaurant,Italian Restaurant,Pizza Place",25
+124,MD,20737,Pizza Place,25
+125,CA,92683,Pizza Place,25
+126,FL,32765,"Restaurant,Pizza Place",25
+127,CA,90039,Pizza Place,25
+128,WI,53703,Pizza Place,25
+129,CA,92507,"Italian Restaurant,Pizza Place",40
+130,OH,43230,"Bar,Pizza Place,Pub",25
+131,TX,78205,"Italian Restaurant,Pizza Place",40
+132,TX,78734,"Italian Restaurant,Pizza Place",40
+133,PA,19144,"Restaurant,Pizza Place",25
+134,CA,92832,"Pizza,Restaurant,Italian,Pizza Place",25
+135,FL,33062,"Bar,Pizza Place",40
+136,NY,10901,Pizza Place,25
+137,IL,60634,Pizza Place,25
+138,GA,30542,"Pizza,Italian,Food Delivery,Pizza Place,Restaurants",40
+139,NC,27310,"Pizza,Pizza Place,Restaurants,Bars",25
+140,MI,48603,"Restaurant,Pizza Place,Restaurants",25
+141,NY,11366,Pizza Place,25
+142,CA,91024,Pizza Place,25
+143,NY,11801,"Restaurant,Pizza Place",25
+144,SC,29575,"Pizza,American Restaurants,Pizza Place,Restaurants",25
+145,FL,33166,"Pizza,Restaurant,Karaoke,Pizza Place,Restaurants",25
+146,CA,94619,"Pizza,Restaurant,Indian,Pizza Place,Restaurants",25
+147,NM,87110,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",40
+148,NY,10024,"Restaurant,Pizza Place",25
+149,TX,75230,"Pizza,Restaurant,Pizza Restaurants,Italian restaurants,Pizza Place,Restaurants",25
+150,AR,72032,Pizza Place,25
+151,FL,34957,"American Restaurant,Pizza Place",40
+152,TN,37027,Pizza Place,25
+153,NY,14120,"Pizza,Pizza Place,Restaurants",25
+154,CA,90014,"Restaurant,Pizza Restaurants,Pizza Place,Restaurants",25
+155,NY,11385,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",25
+156,PA,17540,"Italian Restaurant,Pizza Place",25
+157,NY,10950,Pizza Place,40
+158,TN,37311,Pizza Place,25
+159,TX,78225,"Pizza,Restaurant,Pizza Place Palm Heights,Pizza Place,Restaurants",25
+160,AZ,85392,Pizza Place,25
+161,KS,66106,"Restaurant,Pizza Place Argentine,Pizza Place,Restaurants",25
+162,NY,13502,"Restaurant,Pizza Place",25
+163,NY,11230,"Pizza,Restaurant,Sushi,Pizza Place",25
+164,UT,84047,"Pizza,Restaurant,Pizza Place,Restaurants",25
+165,PA,19311,Pizza Place,25
+166,AZ,85306,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+167,IL,60192,"Pizza,Restaurant,Pizza Place,Food & Entertainment,Restaurants",25
+168,PA,17025,Pizza Place,25
+169,PA,19464,"Restaurant,Pizza Place",25
+170,KY,41042,Pizza Place,25
+171,IL,60647,"Pizza,Restaurant,Pizza Place",40
+172,IN,46217,Pizza Place,40
+173,CA,92707,"Pizza,Restaurant,Pizza Place",25
+174,NY,11767,"Restaurant,Pizza Place",25
+175,PA,19103,"Pizza,Restaurant,Italian Restaurant,Italian,Pizza Place",25
+176,CA,93033,Pizza Place,25
+177,NY,11362,"Pizza,Pizza Place,Restaurants",40
+178,FL,32826,Pizza Place,25
+179,GA,31093,Pizza Place,25
+180,TX,78613,Pizza Place,25
+181,WI,53228,"American Restaurant,Pizza Place",25
+182,MO,63005,"Restaurant,Pizza Place",25
+183,NE,68508,"Bar,Pizza Place,Pub",40
+184,NY,11204,Pizza Place,25
+185,PA,19125,"Pizza,Restaurant,Military Attorneys,Pizza Place,Restaurants",7
+186,MN,55344,"Pizza,Italian Restaurant,wich Place,Pizza Place,Sandwich Place,Restaurants",40
+187,NY,10280,Pizza Place,40
+188,IL,60174,"Restaurant,Pizza Place",25
+189,CA,94066,"Pizza Place,Catering,Restaurants",40
+190,NY,11747,"Restaurant,Pizza Place",25
+191,IA,52241,"Pizza,Restaurant,Italian,Food Delivery,Pizza Place",25
+192,AZ,86336,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+193,CA,92543,Pizza Place,25
+194,KY,41015,Pizza Place,25
+195,CA,93117,Pizza Place,25
+196,KS,67206,"Restaurant,Pizza Place",25
+197,IL,60634,Pizza Place,25
+198,NY,11783,"American Restaurant,American Restaurant and Pizza Place,Pizza Place",40
+199,TX,75209,"Italian Restaurant,Pizza Place",40
+200,VA,22205,Pizza Place,40
+201,NY,10465,"Pizza Place,Catering,Restaurants",25
+202,NY,11768,"Italian Restaurant,Pizza Place",25
+203,KY,40507,Pizza Place,25
+204,PA,19020,"Pizza,Restaurant,Pizza Place,Restaurants",25
+205,VA,23005,Pizza Place,25
+206,IN,46220,"Brewery,Bar,Pizza Place",40
+207,NY,11229,"Pizza,Pizza Place Homecrest,Pizza Place,Locksmiths,Restaurants",25
+208,IN,46307,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+209,VA,24572,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+210,TN,38111,Pizza Place,40
+211,TX,76006,"Pizza Place North Arlington,Pizza Place",25
+212,FL,32828,"Event Space,Pizza Place",25
+213,CA,92107,Pizza Place,25
+214,NY,10022,"Pizza,Restaurant,Vegetarian,Pizza Place,Kosher",40
+215,FL,33180,"Italian Restaurant,Pizza Place",55
+216,WA,98012,"Burger Joint,Pizza Place",40
+217,PA,19104,"Pizza Place University City,Pizza Place",25
+218,GA,30308,"Mediterranean Restaurant,Restaurant,Pizza Place,Pizza Place and Mediterranean Restaurant",25
+219,CO,81201,"Brewery,Pizza Place",25
+220,NY,11103,"Restaurant,Pizza Place",25
+221,PA,19026,"Restaurant,Pizza Place",40
+222,NY,10009,"Restaurant,Pizza Place",40
+223,FL,33351,"Italian Restaurant,Pizza Place",40
+224,MD,21212,Pizza Place,25
+225,WA,98516,Pizza Place,40
+226,NY,11379,Pizza Place,40
+227,OK,74136,Pizza Place,40
+228,OH,44266,"Restaurant,Pizza Place",25
+229,NY,13057,"Restaurant,Pizza Place",25
+230,TX,75028,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+231,GA,30605,Pizza Place,25
+232,PA,18067,Pizza Place,25
+233,NY,10546,Pizza Place,25
+234,PA,19107,"Pizza,American restaurants,Pizza Place,Restaurants",25
+235,OH,45069,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+236,MN,55125,Pizza Place,40
+237,OH,43612,Pizza Place,25
+238,NY,10594,"Italian Restaurant,Pizza Place",40
+239,SD,57702,Pizza Place,25
+240,FL,34684,"Italian Restaurant,Pizza Place",25
+241,IL,60084,"Bar,Pub, Pizza Place, and Bar,Pizza Place,Pub",25
+242,WI,54016,"Pizza,Restaurant,Pizza Place,Restaurants",25
+243,NY,11354,Pizza Place,25
+244,FL,32605,Pizza Place,40
+245,TN,37067,"Wings Joint,Pizza Place",25
+246,PA,15213,"Restaurant,Pizza Place Central Oakland,Pizza Place",25
+247,CA,96150,"Pizza,Restaurant,Pizza Place",25
+248,KY,40204,"Restaurant,Bar,Pizza Place",25
+249,CA,92260,Pizza Place,25
+250,NY,10027,"Pizza,Restaurant,Pizza Place",25
+251,CA,90277,"Pizza,Restaurant,Pizza Place South Redondo Beach,Pizza Place",25
+252,NY,11375,"Pizza,Restaurant,Pizza Place,Restaurants",25
+253,NY,10992,"Pizza,Italian Restaurant,Pizza Place",25
+254,GA,30022,Pizza Place,25
+255,NY,10591,Pizza Place,25
+256,IL,62208,"Pizza Place,Catering,Restaurants",25
+257,MI,48823,Pizza Place,25
+258,TX,77380,"Pizza Place,Restaurants",40
+259,TN,37312,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+260,CA,91344,"Pizza Place,Pizza Place Granada Hills South",25
+261,OR,97520,"Brewery,Restaurant,Pizza Place",40
+262,NY,12401,Pizza Place,25
+263,MD,21804,"Pizza,American Restaurants,Pizza Place,Restaurants",40
+264,CO,81301,"Pizza,Pizza Place,Restaurants",25
+265,VA,23803,"Italian Restaurant,Pizza Place",40
+266,OH,44115,Pizza Place,25
+267,FL,33139,"Pizza,Restaurant,Pizza Place",25
+268,CA,94954,Pizza Place,25
+269,NC,27705,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+270,CA,92069,"Pizza,Restaurant,Pizza Place",25
+271,MN,55121,Pizza Place,40
+272,NY,10003,"Pizza,Restaurant,Italian,Pizza Place",40
+273,CA,92627,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",40
+274,OH,44212,"Restaurant,Pizza Place",25
+275,OH,45014,Pizza Place,25
+276,PA,15007,Pizza Place,25
+277,NY,10956,"Office,Pizza Place,Pizza Place and Office",25
+278,TX,75098,"Italian Restaurant,Pizza Place",40
+279,NE,69162,Pizza Place,25
+280,PA,17055,"Italian Restaurant,Pizza Place",25
+281,NC,27519,Pizza Place,25
+282,NY,10588,Pizza Place,25
+283,NY,10989,"Restaurant,Pizza Place",25
+284,CA,90740,"Restaurant,Pizza Place",25
+285,MO,63105,"Pizza,Restaurant,Caterers,Delicatessens,Pizza Place,Restaurants",25
+286,NC,28031,Pizza Place,25
+287,NY,10016,"Pizza,Restaurant,Italian,Pizza Place",25
+288,GA,30214,Pizza Place,25
+289,OH,45242,"Restaurant,Pizza Place",25
+290,OH,43614,"Pizza,Restaurant,Pizza Place,Restaurants",25
+291,MD,21227,"Italian Restaurant,Pizza Place",25
+292,NY,10462,Pizza Place,25
+293,NY,11360,Pizza Place,25
+294,TX,78746,"Italian Restaurant,Pizza Place",40
+295,NY,11561,"Italian Restaurant,Pizza Place",25
+296,CA,91360,"Pizza,Pizza Place,Restaurants",40
+297,IL,60614,"Pizza,Restaurant,Pizza Restaurants,Pizza Place,Pizza Place Park West,Restaurants",25
+298,PA,19139,"Pizza,Pizza Place,Restaurants",40
+299,NY,11787,Pizza Place,25
+300,NY,11226,Pizza Place,25
+301,FL,32246,"Restaurant,Pizza Place,Restaurants",25
+302,TX,78108,"Italian Restaurant,Pizza Place",25
+303,WA,99206,Pizza Place,25
+304,AZ,86336,"Pizza Place,Restaurants",25
+305,VA,23661,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+306,MI,49048,"Restaurant,Spa,Pizza Place",25
+307,SC,29401,"Pizza Place Radcliffeborough,Pizza Place",25
+308,NE,68526,Pizza Place,25
+309,NY,14216,Pizza Place,25
+310,CO,80015,Pizza Place,25
+311,AR,72701,"Pizza,Restaurant,Karaoke,Pizza Place,Restaurants",25
+312,SC,29160,"Restaurant,Pizza Place",25
+313,FL,32168,Pizza Place,25
+314,PA,19401,"Italian Restaurant,Pizza Place",25
+315,OH,45066,Pizza Place,25
+316,CO,80021,"Beer Garden,Pizza Place",25
+317,NY,10013,"Restaurant,Pizza Place",25
+318,NY,12528,Pizza Place,25
+319,NY,11432,"Italian Restaurant,Pizza Place",25
+320,NY,11777,Pizza Place,25
+321,IL,60085,Pizza Place,25
+322,PA,15642,"Pizza Place,Dive Bar",25
+323,AZ,85234,Pizza Place,25
+324,GA,30024,Pizza Place,25
+325,IN,46226,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+326,IL,60515,"American Restaurant,Pizza Place",25
+327,MD,20745,"Italian Restaurant,Pizza Place",40
+328,CA,93901,"Restaurant,Pizza Place,Restaurants",25
+329,NC,28777,"Pizza,Restaurant,Pizza Place,Restaurants",25
+330,TN,37919,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",40
+331,GA,30153,"Italian,Pizza Place",25
+332,FL,33181,Pizza Place,25
+333,CA,94109,Pizza Place,40
+334,WI,53151,Pizza Place,25
+335,NY,11385,"Pizza,Pizza Place,Restaurants",25
+336,MS,38671,Pizza Place,25
+337,IL,60018,"Italian Restaurant,Pizza Place",40
+338,NY,11357,Pizza Place,25
+339,NY,11797,Pizza Place,25
+340,PA,19038,Pizza Place,25
+341,OH,45840,Pizza Place,25
+342,IN,46733,Pizza Place,25
+343,IL,60805,"Restaurant,Bar,Funeral Home,Pizza Place, Bar, and Funeral Home,Pizza Place,Pizza Place and Bar",40
+344,GA,30339,"Restaurant,Pizza Place,Restaurants",40
+345,PA,15228,Pizza Place,25
+346,NY,14467,"Restaurant,Pizza Place",25
+347,MN,55304,"Pizza,Pizza Place",25
+348,NY,13045,"Pizza Place,Restaurants",25
+349,NY,13760,Pizza Place,25
+350,NY,10960,"Italian Restaurant,Pizza Place",25
+351,WA,99338,"Burger Joint,Pizza Place",25
+352,MI,49442,"Pizza,Restaurant,Pizza Place,Restaurants",25
+353,PA,18901,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+354,WA,98040,"Restaurant,Pizza Place and Food Truck,Pizza Place,Food Truck",25
+355,CA,94063,"Restaurant,Pizza Place",25
+356,VA,22304,Pizza Place,25
+357,NY,11758,"Italian Restaurant,Pizza Place",40
+358,MI,48073,"Restaurant,Pizza Place",25
+359,NY,12180,Pizza Place,40
+360,NY,11211,"Pizza Place,Pizza Place Williamsburg",25
+361,MD,21842,Pizza Place,25
+362,PA,19154,"Pizza,Pizza Place",25
+363,NY,11702,"Restaurant,Pizza Place",25
+364,NY,11201,"Restaurant,Pizza Place",40
+365,NY,11530,"Italian Restaurant,Pizza Place",40
+366,NY,10024,"Pizza,Restaurant,Italian,Pizza Place",25
+367,GA,30331,Pizza Place,25
+368,NV,89149,Pizza Place,40
+369,NY,10451,Pizza Place,25
+370,AZ,85295,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",40
+371,NC,28607,"Bar,Pizza Place",25
+372,MI,49453,Pizza Place,25
+373,PA,19123,"Diner and Pizza Place,Diner,Pizza Place,Diner and Pizza Place Northern Liberties - Fishtown",25
+374,FL,32803,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",40
+375,NY,11701,"Italian Restaurant,Pizza Place",40
+376,CO,80524,"Pizza Place,Pizza Place Downtown Fort Collins",25
+377,NY,10019,"Pizza,Restaurant,Wings,Breakfast & Brunch,Pizza Place",40
+378,OR,97206,Pizza Place,40
+379,WI,54935,"Restaurant,Pizza Place",25
+380,NY,10019,"Restaurant,Pizza Place",25
+381,NY,14850,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+382,NY,11218,"Pizza,Pizza Place Kensington,Restaurant,Pizza Place",25
+383,TX,78230,"Restaurant,Pizza Place",25
+384,TX,78216,Pizza Place,40
+385,NY,10022,"Restaurant,Pizza Place",25
+386,TX,78726,Pizza Place,25
+387,NC,27408,"Restaurant,Bar,Pizza Place",25
+388,CA,95820,"Restaurant,Pizza Place",40
+389,OH,43215,"Restaurant,Pizza Place,Pizzeria,Tempat Pizza",40
+390,PA,19083,"Pizza,Restaurant,Caterers,Pizza Place Haverford,Pizza Place,Restaurants",25
+391,CA,92104,"Pizza Place Normal Heights,Pizza Place",25
+392,TX,75209,"Pizza,Restaurant,Pizza Restaurants,Italian restaurants,Pizza Place,Restaurants",25
+393,NY,11735,"Italian Restaurant,Pizza Place",40
+394,PA,19107,"Pizza,Restaurant,Pizza Place",25
+395,CA,92612,Pizza Place,40
+396,NY,11215,"Pizza Place Gowanus,Pizza Place",25
+397,WA,98122,"Pizza Place Capitol Hill,Pizza Place",25
+398,IN,46163,Pizza Place,25
+399,CA,91790,Pizza Place,25
+400,VA,23451,Pizza Place,25
+401,OH,45005,Pizza Place,25
+402,FL,33511,Pizza Place,25
+403,PA,19044,Pizza Place,25
+404,FL,33444,Pizza Place,25
+405,PA,15012,Pizza Place,25
+406,NY,13208,Pizza Place,25
+407,NY,10462,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",25
+408,CA,92806,Pizza Place,25
+409,IL,60007,Pizza Place,25
+410,MI,48104,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+411,KY,40299,"Pizza Place,Pizza Place East Louisville",40
+412,IA,50266,"Pizza,Pizza Place,Restaurants",40
+413,PA,16901,"Pizza Place,Catering,Restaurants",25
+414,NY,11355,"Pizza,Fried Chicken Joint,Chicken,Pizza Place",25
+415,VA,23456,Pizza Place,25
+416,CA,96002,Pizza Place,25
+417,PA,18071,Pizza Place,25
+418,VA,20155,"Restaurant,Pizza Place,Restaurants",25
+419,CA,92860,"Pizza,Restaurant,Pizza Place,Restaurants",25
+420,VA,22903,"Pizza,Restaurant,Pizza Place,Pizza Place Barracks Road,Restaurants",40
+421,PA,17109,"Restaurant,Pizza Place",25
+422,NY,11214,"Pizza,Pizza Place Bensonhurst,Take Out,Carry-out food,Pizza Place,Restaurants,Pizza Delivery",25
+423,OH,44240,Pizza Place,25
+424,DE,19975,Pizza Place,25
+425,LA,70448,"Restaurant,Pizza Place",25
+426,FL,34145,Pizza Place,25
+427,MN,56071,Pizza Place,25
+428,WV,26508,"Italian Restaurant,Pizza Place",25
+429,GA,30046,"Pizza,Restaurant,Pizza Place,Restaurants",25
+430,GA,30017,Pizza Place,25
+431,PA,19320,"Pizza,Restaurant,Pizza Place,Restaurants",25
+432,NY,11375,"Pizza,Italian,American,Pizza Place",40
+433,FL,34236,"Italian Restaurant,Pizza Place",25
+434,NY,10034,"Pizza,Restaurant,Italian,Pizza Place",40
+435,CO,80122,"Italian Restaurant,Restaurant,Pizza Place and Italian Restaurant,Pizza Place",40
+436,KS,66219,"Restaurant,Pizza Place",40
+437,NC,27707,Pizza Place,25
+438,FL,33322,Pizza Place,25
+439,CA,90717,"Restaurant,Pizza Place",25
+440,FL,32168,Pizza Place,25
+441,VA,22150,"Restaurant,Pizza Place",25
+442,IN,47362,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+443,PA,17225,Pizza Place,25
+444,NY,11691,"Pizza,Restaurant,Pizza Place",25
+445,NY,11967,"Italian Restaurant,Pizza Place",25
+446,FL,34668,Pizza Place,25
+447,NY,10505,Pizza Place,25
+448,FL,32712,Pizza Place,25
+449,NY,10033,"Pizza,Restaurant,Kosher,Pizza Place,Restaurants",25
+450,NY,14223,"Pizza,Restaurant,Pizza Place,Restaurants",25
+451,FL,32086,Pizza Place,25
+452,NY,14150,Pizza Place,25
+453,CA,92252,"Restaurant,Pizza Place",25
+454,NY,11795,Pizza Place,25
+455,AZ,85206,Pizza Place,40
+456,NY,10025,"Pizza,Restaurant,Italian,Breakfast & Brunch,Pizza Place",25
+457,NY,10467,"Pizza,American restaurants,Pizza Place,Restaurants",25
+458,MO,64116,Pizza Place,40
+459,FL,32907,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+460,WA,99201,"Restaurant,Pizza Place",25
+461,IL,61704,"Italian Restaurant,Pizza Place",25
+462,FL,33445,"Italian Restaurant,Pizza Place",25
+463,LA,70115,"Italian Restaurant,Pizza Place",40
+464,CA,90010,Pizza Place,40
+465,MD,21224,"Restaurant,Pizza Place",25
+466,CA,92109,"Pizza Place Pacific Beach,Pizza Place",25
+467,CA,91607,Pizza Place,25
+468,NY,10003,"Pizza,Restaurant,Italian,Pizza Place",25
+469,NY,11201,"Restaurant,Pizza Place DUMBO,Pizza Place",25
+470,CA,92629,"Brewery,Pizza,Pizza Place and Brewery,Pizza Place,Restaurants",25
+471,WA,98109,Pizza Place,25
+472,NY,11558,Pizza Place,25
+473,AZ,86047,"Restaurant,Pizza Place",25
+474,PA,19116,"Pizza,Restaurant,Pizza Place,Restaurants",25
+475,PA,17603,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+476,OH,44883,"Pizza,Restaurant,Caterers,Pizza Place,Catering,Restaurants",25
+477,NE,69301,"Pizza,Caterers,Pizza Place,Restaurants,Italian Restaurants",25
+478,TX,77087,Pizza Place,25
+479,CA,92870,Pizza Place,25
+480,IN,47591,"Restaurant,Pizza Place,Restaurants",25
+481,OH,44515,"Pizza Place,Restaurants",25
+482,IN,47710,Pizza Place,25
+483,PA,19008,Pizza Place,25
+484,NC,27409,Pizza Place,25
+485,PA,19103,Pizza Place,25
+486,IL,60430,Pizza Place,25
+487,WI,54130,"Sicilian Restaurant,Pizza Place,Pizza Restaurant",25
+488,OR,97394,"Pizza Place,Restaurants",25
+489,CA,92008,"Restaurant,Pizza Place",25
+490,PA,19038,"Restaurant,Pizza Place",25
+491,PA,19025,"Restaurant,Pizza Place",25
+492,MD,21040,Pizza Place,25
+493,GA,30306,"Pizza,Restaurant,Pizza Place,Restaurants",25
+494,AZ,85378,Pizza Place,25
+495,TX,76248,Pizza Place,25
+496,VA,23072,"Pizza,Italian Restaurant,Pizza Place,Restaurants",25
+497,FL,32561,Pizza Place,25
+498,MI,48051,"Restaurant,Pizza Place,Restaurants",25
+499,NC,27927,Pizza Place,25
+500,NY,13206,"Pizza,Restaurant,Pizza Place,Restaurants",25
+501,PA,19026,Pizza Place,25
+502,NY,14425,Pizza Place,25
+503,DE,19713,Pizza Place,25
+504,NC,28079,Pizza Place,25
+505,IA,50125,"Pizza Place,Pub",25
+506,NM,87501,Pizza Place,25
+507,OH,43212,"Pizza,Restaurant,Pizza Place,Restaurants",25
+508,WI,53222,"Restaurant,Pizza Place",25
+509,AZ,85037,"Restaurant,Pizza Place",25
+510,CO,80111,"Italian Restaurant,Pizza Place",25
+511,IN,46131,Pizza Place,25
+512,NY,10016,Pizza Place,25
+513,SC,29601,"Pizza Place Downtown Greenville,Pizza Place",25
+514,CA,92081,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+515,NY,11385,Pizza Place,25
+516,AZ,85139,Pizza Place,25
+517,VA,22302,"Pizza,American restaurants,Pizza Place,Restaurants",40
+518,WA,98109,"Pizza Place East Queen Anne,Pizza Place,Restaurants",26
+519,NC,28211,"Restaurant,Pizza Place",25
+520,CA,91364,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+521,IL,60467,"Pizza,Restaurant,Pizza Place,Restaurants",25
+522,NY,11222,"Pizza,Restaurant,Pizza Place Greenpoint,Pizza Place,Restaurants",25
+523,TX,78759,Pizza Place,25
+524,CA,94506,Pizza Place,25
+525,TX,78745,"Restaurant,Pizza Place",40
+526,GA,30067,"Greek Restaurant,Pizza Place",40
+527,VA,22201,"Department stores,Pizza,Restaurant,Pizza Place,Restaurants",25
+528,OH,45414,"Pizza,Caterers,Pizza Place,Catering,Restaurants",25
+529,NC,28215,"Pizza,Restaurant,Pizza Place,Restaurants",25
+530,PA,17101,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+531,PA,19119,"Pizza,Restaurant,Pizza Place,Restaurants",25
+532,NY,14480,"Pizza,Caterers,Pizza Place,Restaurants,Italian Restaurants",25
+533,NY,11566,"Restaurant,Pizza Place,Restaurants",25
+534,OH,43074,"Pizza,Restaurant,Pizza Place,Restaurants",25
+535,NC,27712,"Pizza Place,Restaurants",25
+536,NC,28209,"Restaurant,Pizza Place,Restaurants",25
+537,NY,11577,"Pizza,Franchising,Pizza Place,Restaurants",25
+538,PA,19382,"Pizza,Restaurant,Pizza Place,Restaurants",25
+539,MO,63301,"Pizza,Italian Restaurant,Pizza Place,Restaurants",25
+540,OH,45241,"Restaurant,Pizza Place,Restaurants",25
+541,NY,14226,"Pizza,Restaurant,Caterers,Pizza Place,Catering,Restaurants",25
+542,NY,13208,"Pizza Place,Catering,Restaurants",25
+543,PA,19610,"Pizza Place,Restaurants",25
+544,NC,28202,"Restaurant,Pizza Place,Restaurants",25
+545,NC,28204,"Pizza Place,Restaurants",40
+546,NC,28215,"Pizza,Pizza Place",25
+547,NY,14701,"Pizza Place,Restaurants",25
+548,NY,14623,"Pizza,Restaurant,Pizza Place,Restaurants",25
+549,NY,10021,"Italian Restaurant,Pizza Place",40
+550,PA,15642,Pizza Place,25
+551,KY,40207,"Restaurant,Pizza Place,Restaurants",25
+552,CA,90025,"Italian Restaurant,Pizza Place",25
+553,MI,48864,"Pizza,Pizza Place,Restaurants",25
+554,MI,48104,Pizza Place,25
+555,MD,21230,"Bar,Bar and Pizza Place,Pizza Place",40
+556,TX,77007,"Pizza,Restaurant,Buffet,Pizza Place,Restaurants",40
+557,IN,46037,Pizza Place,25
+558,FL,34442,Pizza Place,25
+559,NY,11003,Pizza Place,25
+560,CA,92867,"Pizza,Restaurant,Pizza Place,Restaurants",25
+561,MS,38672,"Pizza,Food and Beverage,Pizza Place",25
+562,NY,12206,Pizza Place,25
+563,PA,19139,Pizza Place,25
+564,PA,17011,Pizza Place,25
+565,CA,94930,"Pizza,Restaurant,Pizza Place,Restaurants",25
+566,VA,22003,"Italian Restaurant,Pizza Place",25
+567,NY,14845,Pizza Place,25
+568,WV,25301,"Restaurant,Pizza Place Downtown Charleston,Pizza Place",40
+569,PA,19341,Pizza Place,25
+570,NY,11201,"Restaurant,Pizza Place,Restaurants",25
+571,OR,97322,Pizza Place,25
+572,FL,33914,"Restaurant,Pizza Place",25
+573,MO,64055,Pizza Place,25
+574,FL,33510,"Restaurant,Pizza Place",25
+575,NY,11769,"Italian Restaurant,Pizza Place",25
+576,TN,37090,Pizza Place,25
+577,IL,60560,"Italian Restaurant,Pizza Place",25
+578,IL,61820,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+579,CA,92804,Pizza Place,25
+580,LA,70001,Pizza Place,25
+581,NY,10509,"Italian Restaurant,Pizza Place",25
+582,IA,50265,Pizza Place,25
+583,PA,19002,Pizza Place,25
+584,NC,28546,Pizza Place,25
+585,KY,40222,"Restaurant,Pizza Place",25
+586,NY,11414,"Pizza Place Howard Beach,Restaurant,Pizza Place",25
+587,NY,14150,"Pizza,Restaurant,Pizza Place,Restaurants",25
+588,WV,26508,"Pizza,American restaurants,Pizza Place,Restaurants",25
+589,WI,53703,"Pizza Place,Pizza Place Tenney-Lapham",25
+590,NE,68118,"Pizza,American restaurants,Karaoke,Pizza Place,Restaurants",40
+591,MO,63304,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+592,PA,15224,"Pizza,Restaurant,Pizza Place,Restaurants",25
+593,PA,19072,"Restaurant,Pizza Place,Restaurants",25
+594,PA,19128,"Pizza Place Roxborough,Pizza Place,Restaurants",25
+595,PA,18036,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+596,NY,13207,"Pizza,Restaurant,Pizza Place,Restaurants",25
+597,PA,19129,"Pizza,Restaurant,Pizza Restaurants,Caterers,Pizza Place,Pizza Place East Falls,Catering,Restaurants",25
+598,PA,15203,"Restaurant,Pizza Place,Restaurants",25
+599,PA,17101,"Pizza,Pizza Place,Restaurants",25
+600,NY,14108,"Pizza,Restaurant,Pizza Place,Restaurants",25
+601,NC,28036,"Restaurant,Pizza Place,Restaurants",40
+602,NC,27601,"Restaurant,Pizza Place,Restaurants",25
+603,PA,18966,"Restaurant,Pizza Place",25
+604,NY,13148,Pizza Place,25
+605,TX,75094,"Restaurant,Pizza Place",30
+606,MN,55123,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+607,PA,19123,"Pizza,Pizza Place,Restaurants,Italian Restaurants",25
+608,TX,77056,"Italian Restaurant,Pizza Place",40
+609,NY,13501,"Pizza Place,Catering,Restaurants",25
+610,PA,17064,"Pizza Place,Restaurants",25
+611,PA,18087,"Pizza Place,Restaurants",25
+612,OH,43113,"Pizza,Family Style Dining,Pizza Place,Restaurants",25
+613,NY,11717,"Pizza,American restaurants,Pizza Place,Restaurants",25
+614,OH,45458,"Pizza,Restaurant,Caterers,Pizza Place,Catering,Restaurants",40
+615,OH,43201,"Pizza,Restaurant,Pizza Place,Restaurants",25
+616,NY,11735,"Pizza,Italian Restaurant,Restaurant,Pizza Place,Restaurants",25
+617,NY,12449,"Pizza Place,Restaurants",25
+618,NC,28303,"Pizza Place,Catering,Restaurants",25
+619,NY,11793,"Restaurant,Pizza Place,Restaurants",25
+620,NY,14616,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+621,TN,37076,"Italian Restaurant,Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+622,PA,15215,"Restaurant,Pizza Place",25
+623,FL,33172,"Italian Restaurant,Pizza Place",40
+624,PA,19050,Pizza Place,25
+625,NC,27948,"Pizza Place, Sandwich Place, and American Restaurant,Pizza Place,Restaurants",25
+626,NY,14850,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+627,NY,11705,"Pizza,Pizza Place,Restaurants",25
+628,PA,17083,"Restaurant,Pizza Place,Restaurants",25
+629,PA,18018,"Pizza Place,Restaurants",25
+630,IL,60515,Pizza Place,25
+631,PA,15101,"Bar,Pizza Place,Pizza Place and Bar",25
+632,NY,11566,"Restaurant,Pizza Place,Restaurants",25
+633,NY,12206,"Pizza Place,Restaurants",25
+634,NY,12866,"Pizza,American restaurants,Karaoke,Pizza Place,Restaurants",25
+635,OH,44820,"Restaurant,Pizza Place,Restaurants",40
+636,OH,44240,"Restaurant,Pizza Place,Restaurants",25
+637,OH,44805,"Pizza,Restaurant,Pizza-Wholesale and Manufacturers,Pizza Place,Restaurants",25
+638,NC,27028,"Pizza,Pizza Place",25
+639,NC,27215,"Pizza,Restaurant,Bar,Pizza Place,Pizza Place and Bar,Restaurants",40
+640,NY,12901,"Restaurant,Pizza Place,Restaurants",25
+641,NY,14414,"Pizza,Pizza Place,Restaurants",25
+642,NY,14150,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+643,MO,65807,"Restaurant,Pizza Place,Restaurants",25
+644,PA,19044,"Restaurant,Pizza Place,Restaurants",40
+645,KS,67226,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+646,CO,80525,"Pizza,Pizza Place,Restaurants",25
+647,OR,97205,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+648,OR,97214,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+649,OR,97124,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",40
+650,NV,89052,"Restaurant,Pizza Place",25
+651,IL,60076,"Restaurant,Pizza Place",25
+652,IN,46032,Pizza Place,25
+653,TX,75006,"Restaurant,Pizza Place",25
+654,NY,14845,Pizza Place,25
+655,OH,44303,Pizza Place,25
+656,VA,23451,Pizza Place,25
+657,IL,60502,Pizza Place,25
+658,CA,90745,Pizza Place,25
+659,MI,49015,"Pizza,Restaurant,Pizza Place and Sandwich Place,wich Place,Pizza Place,Sandwich Place,Restaurants",25
+660,CA,94040,Pizza Place,40
+661,FL,33324,"Italian Restaurant,Pizza Place",40
+662,CA,90066,Pizza Place,40
+663,CA,92407,Pizza Place,25
+664,OR,97401,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",40
+665,NY,12534,"American Restaurant,Pizza Place and American Restaurant,Pizza Place",40
+666,UT,84075,"Pizza,Pasta,Pizza Place,Restaurants,Sandwich Shops",25
+667,KY,40207,"Bar,Pizza Place,Pub",40
+668,FL,33139,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",40
+669,OR,97212,Pizza Place,25
+670,NY,11201,"Restaurant,Pizza Place",25
+671,NY,10065,"Pizza,Restaurant,Pizza Restaurants,Italian,Wings,Breakfast & Brunch,Pizza Place",25
+672,CA,94117,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+673,NY,11215,"Pizza Place Central Slope,Pizza Place",25
+674,MN,55402,"Pizza,Pizza Place Downtown West,Pizza Place,Bakeries,Restaurants",25
+675,NY,10016,"Pizza,Restaurant,Italian,Pizza Place",25
+676,NY,10012,"Restaurant,Pizza Place",25
+677,SC,29414,Pizza Place,25
+678,PA,19020,Pizza Place,25
+679,MI,49930,"Pizza Place,Restaurants",25
+680,IA,52722,"Pizza,Restaurant,Gastropub,Pizza Place,Restaurants",55
+681,FL,34683,Pizza Place,25
+682,IL,60018,Pizza Place,25
+683,NY,12084,"Restaurant,Pizza Place",25
+684,PA,19342,Pizza Place,25
+685,NC,28209,"Pizza Place Madison Park,Pizza Place",25
+686,NM,88220,"Restaurant,Pizza Place,Restaurants",25
+687,MI,48823,"Greek Restaurant,Pizza Place",25
+688,NY,11222,"Pizza Place Greenpoint,Pizza Place",25
+689,TX,75201,"Italian Restaurant,Pizza Place",40
+690,MN,55379,"Pizza,Pizza Place",25
+691,NY,10033,"Pizza,Pizza Restaurants,Pizza Place",25
+692,PA,19147,"Pizza Place,Pizza Place Bella Vista - Southwark",25
+693,MN,55068,Pizza Place,25
+694,CO,80134,"wholesale,Pizza Place",25
+695,CO,80202,Pizza Place,40
+696,NY,10024,Pizza Place,25
+697,OR,97701,"Pizza Place,Restaurants",25
+698,AR,72921,"Restaurant,Pizza Place,Restaurants",25
+699,MS,39530,"Pizza Place,Dessert Shop",40
+700,NY,10016,"Pizza Place,Restaurants",25
+701,FL,32818,"Pizza,Restaurant,Chain Restaurant,Pizza Place",25
+702,WA,98406,"Restaurant,Pizza Place",25
+703,NC,28027,Pizza Place,25
+704,IN,46637,Pizza Place,30
+705,FL,34471,"Restaurant,Pizza Place",25
+706,IL,60611,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",25
+707,NC,28658,"Italian Restaurant,Pizza Place",40
+708,NY,11530,Pizza Place,25
+709,NY,10011,"Restaurant,Pizza Place Chelsea,Pizza Place",40
+710,NY,12401,"Italian Restaurant,Pizza Place",40
+711,TX,75002,"Restaurant,Pizza Place",25
+712,OR,97404,"Pizza Place,Pizza Place River Road",25
+713,MI,49006,Pizza Place,25
+714,AL,35244,Pizza Place,40
+715,NY,11714,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+716,FL,33613,"Pizza Place Village of Tampa,Restaurant,Pizza Place",25
+717,CA,90250,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+718,WA,98371,"Restaurant,Pizza Place",25
+719,PA,19090,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+720,IN,47303,Pizza Place,25
+721,PA,18510,Pizza Place,25
+722,TX,77531,Pizza Place,25
+723,IN,46563,Pizza Place,25
+724,OR,97215,"Pizza,Restaurant,Pizza Restaurants,Pizza Place,Restaurants,Italian Restaurants",55
+725,CA,93277,"Restaurant,Pizza Place",25
+726,OH,43907,Pizza Place,25
+727,AZ,85383,"Pizza,Restaurant,Pizza Place Deer Valley,Pizza Place,Restaurants",25
+728,SC,29575,"Restaurant,Pizza Place",25
+729,NV,89431,Pizza Place,25
+730,NY,12208,Pizza Place,25
+731,MI,48423,"Pizza Place,Restaurants",25
+732,KY,41076,Pizza Place,25
+733,NY,11385,"Pizza,Restaurant,Italian,Pizza Place",40
+734,OH,45014,"Pizza,Carry Out Food,Pizza Place,Restaurants",25
+735,CA,92647,Pizza Place,25
+736,CA,93309,"Restaurant,Pizza Place",25
+737,NC,28075,"Pizza Place,Harrisburg Restaurants",25
+738,WA,98686,"Restaurant,Pizza Place",25
+739,GA,30066,Pizza Place,25
+740,NY,11050,"Italian Restaurant,Pizza Place",25
+741,OR,97045,"Restaurant,Pizza Place",25
+742,WA,98105,Pizza Place,25
+743,FL,34210,Pizza Place,25
+744,NM,87120,"Restaurant,Pizza Place",25
+745,PA,17109,"Wings Joint,Pizza Place,Pizza Place and Wings Joint",25
+746,WI,53590,"Restaurant,Pizza Place",25
+747,NC,28104,Pizza Place,25
+748,CA,90405,"Restaurant,Pizza Place",40
+749,KY,40205,Pizza Place,25
+750,AR,72120,"Pizza,Pizza Place,Restaurants",25
+751,FL,33323,"Restaurant,Pizza Place",25
+752,NY,13820,"American Restaurant,Pizza Place",40
+753,NY,12538,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+754,AZ,85541,"Pizza Place,Restaurants",25
+755,UT,84074,Pizza Place,25
+756,NM,87109,"Restaurant,Pizza Place",25
+757,LA,71360,"Restaurant,Pizza Place",25
+758,WV,26330,Pizza Place,25
+759,TX,77586,"Pizza,Restaurant,Pizza Place,Restaurants",25
+760,OH,43147,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+761,NY,11710,Pizza Place,25
+762,OK,73132,Pizza Place,25
+763,IL,60805,Pizza Place,40
+764,CO,81212,Pizza Place,25
+765,PA,19426,Pizza Place,25
+766,AK,99518,Pizza Place,25
+767,NY,11204,Pizza Place,25
+768,SC,29928,Pizza Place,25
+769,CA,90245,"Restaurant,Pizza Place",25
+770,OH,45140,"Restaurant,Pizza Place",25
+771,WI,53214,"Italian Restaurant,Pizza Place",25
+772,FL,32801,"Pizza Place Central Business District,Pizza Place",25
+773,IL,60471,"Pizza,Restaurant,Pizza Place,Food & Entertainment,Restaurants",25
+774,UT,84098,"Restaurant,Pizza Place",40
+775,NY,10522,"Restaurant,Pizza Place",25
+776,NC,28277,"Pizza Place and Salad Place,Salad Place,Pizza Place",40
+777,IL,60645,"Pizza,Restaurant,Pizza Restaurants,Caterers,Pizza Place,Restaurants",25
+778,WA,98275,Pizza Place,25
+779,GA,30274,Pizza Place,25
+780,FL,33334,Pizza Place,25
+781,TX,76086,"Restaurant,Pizza Place",25
+782,PA,19446,Pizza Place,25
+783,FL,34293,"Restaurant,Pizza Place",25
+784,AZ,85345,Pizza Place,25
+785,NY,11214,"Restaurant,Pizza Place,Pizza Place Gravesend",25
+786,FL,33021,Pizza Place,25
+787,FL,33566,Pizza Place,25
+788,OH,44115,"Pizza,Restaurant,Pizza Place,Restaurants",25
+789,SC,29451,Pizza Place,25
+790,AR,72632,"Bar,Pizza Place",25
+791,TX,77098,"Pizza,Restaurant,Pizza Place,Restaurants",25
+792,VA,23451,Pizza Place,25
+793,WI,54981,Pizza Place,25
+794,NY,10017,"Italian Restaurant,Pizza Place",25
+795,OH,44129,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+796,ID,83702,"Pizza,Pizza Restaurants,Pizza Place,Restaurants",25
+797,OR,97524,"Pizza,Restaurant,Pizza Place,Pizza Restaurant,Restaurants",25
+798,FL,34285,"Pizza,Pizza Place,Restaurants,Sandwich Shops",25
+799,CA,94598,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+800,CA,92705,"Pizza Place,Restaurants",40
+801,CA,95928,"Pizza Place,Restaurants",25
+802,CA,94117,"Pizza,Restaurant,Pizza Place Lower Haight,Pizza Place,Restaurants",25
+803,CA,92118,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+804,CA,95148,"Pizza,Restaurant,American Restaurants,Pizza Place Evergreen,Pizza Place,Restaurants",25
+805,AZ,85705,"Pizza,Restaurant,Pizza Place,Catering,Restaurants",40
+806,FL,32127,"Pizza Place,Restaurants",25
+807,MN,55901,"Pizza Place,Catering,Restaurants",25
+808,MI,49464,"Restaurant,Pizza Place,Restaurants,Mi\\pizza Place",25
+809,FL,33912,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+810,MI,49424,"Pizza,Restaurant,Caterers,shop,Pizza Place,Restaurants",25
+811,FL,34202,"Pizza Place,Restaurants,Pizza Place Lakewood",25
+812,MI,48108,"Pizza Place,Catering,Restaurants",25
+813,CA,94010,"Pizza,American Restaurants,Caterers,Pizza Place,Restaurants",40
+814,CA,95014,"Pizza Place,Restaurants",25
+815,MI,48430,"Restaurant,Pizza Place,Restaurants",25
+816,KY,40202,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+817,CA,94579,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+818,CO,80124,"Pizza Place,Restaurants",40
+819,GA,30117,"Pizza Place,Restaurants",25
+820,CA,92008,"Restaurant,Pizza Place,Restaurants",25
+821,CA,92024,"Pizza,Restaurant,Pizza Place,Restaurants",25
+822,CA,90041,"Pizza,Pizza Place,Restaurants",40
+823,WI,54603,"Pizza,Pizza Place,Restaurants",25
+824,IL,61820,"Pizza,Restaurant,Pizza Place,Restaurants",40
+825,CA,94928,"Pizza,Restaurant,Pizza Place,Restaurants",40
+826,CA,91344,"Pizza Place,Restaurants",25
+827,GA,30117,"Pizza,Pizza Place",25
+828,CA,94596,"Pizza,Restaurant,Pizza Place,Restaurants",25
+829,CA,94618,"Pizza,Restaurant,Pizza Restaurants,Italian,Pizza Place,Restaurants",40
+830,FL,32065,"Restaurant,Pizza Place,Restaurants",25
+831,CA,92123,"Pizza,Italian Restaurant,Restaurant,Pizza Restaurants,Pizza Place,Restaurants",25
+832,CA,90740,"Pizza,Restaurant,Chain Restaurant,Pizza Place,Restaurants",25
+833,CA,91303,"Restaurant,Pizza Place Warner Center,Pizza Place,Restaurants",40
+834,CA,93631,"Restaurant,Pizza Place,Restaurants",25
+835,CA,95337,"Restaurant,Pizza Place,Restaurants",40
+836,GA,30518,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+837,MI,48192,"Pizza Place,Restaurants",25
+838,IL,60148,"Restaurant,Pizza Place,Restaurants",40
+839,FL,34470,"Pizza Place,Catering,Restaurants",25
+840,MN,55901,"Restaurant,Pizza Place,Restaurants",25
+841,MI,48212,"Restaurant,Pizza Place,Restaurants",40
+842,MI,49008,"Pizza,Restaurant,Pizza Place,Catering,Restaurants",25
+843,MI,48104,"Pizza Place,Restaurants",25
+844,CA,92117,"Pizza,Restaurant,Pizza Place,Restaurants",25
+845,LA,70115,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+846,IN,46304,"Pizza Place,Catering,Restaurants",25
+847,IN,46825,"Pizza Place,Restaurants",25
+848,IN,47404,"Pizza Place,Restaurants",25
+849,ID,83815,"Pizza,Restaurant,American Restaurant,Pizza Place,Restaurants",40
+850,IL,60506,"Pizza Place,Restaurants",25
+851,TX,76051,"Pizza,Grapevine Restaurants,Pizza Place,Restaurants",25
+852,MI,49445,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+853,CA,94087,"Pizza Place,Catering,Restaurants",25
+854,CA,90028,"Pizza,Restaurant,Chain Restaurant,Pizza Place,Restaurants",40
+855,PA,19054,"Italian Restaurant,Pizza Place",25
+856,MI,49629,Pizza Place,25
+857,PA,18035,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+858,CA,93637,"Restaurant,Pizza Place",25
+859,KY,41042,Pizza Place,25
+860,NC,27534,Pizza Place,25
+861,PA,16066,"Restaurant,Pizza Place",25
+862,FL,33547,"Italian Restaurant,Pizza Place",25
+863,FL,32043,"Italian Restaurant,Pizza Place",25
+864,FL,33614,Pizza Place,25
+865,PA,15601,Pizza Place,25
+866,NY,11207,"Pizza,Restaurant,Italian,Pizza Place Bushwick,Pizza Place",25
+867,KY,40508,"Pizza,Pizza Place Historic South Hill,Pizza Place,Restaurants",25
+868,CA,90247,"Pizza,Restaurant,Pizza Place,Restaurants",25
+869,CA,90028,"Pizza,Restaurant,Pizza Place,Restaurants",25
+870,CA,93003,"Pizza,Restaurant,Pizza Place,Restaurants",40
+871,FL,32763,Pizza Place,25
+872,OH,44056,Pizza Place,25
+873,AZ,85233,Pizza Place,25
+874,NY,10016,"Pizza,Italian Restaurant,Restaurant,Pizza Place",40
+875,NY,14218,Pizza Place,25
+876,OH,45402,Pizza Place,25
+877,CO,80209,"Pizza,American Restaurants,Restaurant,Pizza Restaurants,Caterers,Pizza Place,Restaurants",24
+878,NY,11415,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+879,TX,77808,"Restaurant,Pizza Place,Restaurants",25
+880,CA,94952,"Pizza,Bars Pubs,Pizza Place,Restaurants",40
+881,IA,50265,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+882,IN,46544,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+883,CA,95603,"Pizza,Pizza Place,Restaurants",40
+884,CA,92056,"Pizza,Restaurant,Pizza Place,Restaurants",40
+885,NC,28461,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+886,TX,75093,"Pizza,Caterers,Italian restaurants,Pizza Place,Restaurants",25
+887,TX,78245,"Italian Restaurant,Pizza Place",25
+888,PA,19081,Pizza Place,25
+889,PA,17050,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+890,NY,10010,"Pizza,Restaurant,Italian,Pizza Place",25
+891,CA,92064,"Restaurant,Pizza Place",25
+892,AL,35071,Pizza Place,25
+893,NY,10011,"Restaurant,Pizza Place",40
+894,AL,36801,Pizza Place,25
+895,IL,60516,Pizza Place,25
+896,CO,80302,"Pizza,American restaurants,Pizza Place,Restaurants",25
+897,FL,33409,"Pizza,Caterers,Pizza Place,Restaurants",25
+898,WI,54901,"Pizza Place,Catering,Restaurants",40
+899,CO,80104,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+900,NY,11361,"Pizza,Restaurant,Pizza Restaurants,Italian,Pizza Place,Restaurants",25
+901,WI,53405,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+902,WI,53212,"Pizza Place,Restaurants",25
+903,MO,64108,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",40
+904,NY,14202,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+905,KS,66067,Pizza Place,25
+906,PA,19464,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+907,IL,62711,"Pizza,Pizza Place,Pub",25
+908,IL,61801,"Pizza,Restaurant,Pizza Place,Restaurants",25
+909,CA,95336,"Pizza Place,Restaurants",25
+910,CA,95690,"Restaurant,Pizza Place,Restaurants",25
+911,VA,22801,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+912,VA,23220,"Pizza,Restaurant,Pizza Restaurants,American restaurants,Pizza Place,Restaurants",25
+913,WI,53405,"Pizza Place,Catering,Restaurants",25
+914,WI,53110,"Restaurant,Pizza Place,Restaurants",25
+915,CA,94114,Pizza Place,33
+916,VA,24013,Pizza Place,20
+917,WA,98109,"Pizza Place Lower Queen Anne,Pizza Place",35
+918,FL,32202,Pizza Place,18
+919,NY,10009,"Pizza Place,Restaurant,Pizza",26
+920,MO,65340,"Restaurant,Pizza Place,Restaurants",25
+921,MO,65201,"Restaurant,Pizza Place,Restaurants",25
+922,WA,99201,"Restaurant,Pizza Place,Pizza Place Riverside,Restaurants",25
+923,VA,23322,"Pizza,Caterers,Pizza Place,Restaurants,Sandwich Shops",25
+924,MD,21842,"Pizza,Pizza Place,Restaurants",25
+925,VA,22191,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place and Italian Restaurant Woodbridge,Restaurant",40
+926,WA,98632,"Pizza,Pizza Place,Restaurants",25
+927,WI,54915,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+928,TX,79102,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+929,TX,79762,"Pizza Place,Restaurant",25
+930,TX,75482,"Restaurant,Pizza Place,Restaurants",25
+931,WA,98501,"Restaurant,Pizza Place,Restaurants",25
+932,PA,19087,"Pizza,Restaurant,Food Delivery,Pizza Place,Restaurants",25
+933,MO,64468,Pizza Place,25
+934,MD,20854,"Pizza Place,Catering,Restaurants",40
+935,IN,46952,"Pizza,Pizza Place,Restaurants",25
+936,IN,47401,"Pizza Place,Restaurants",25
+937,GA,31210,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+938,GA,30022,"Pizza Place,Restaurants",25
+939,OH,44313,"Pizza,Restaurant,Pizza Place Northwest Akron,Pizza Place,Sandwiches,Restaurants",25
+940,TX,78702,"Pizza,Restaurant,Spa,Pizza Place,Restaurants",25
+941,IN,46226,"Pizza,Restaurant,Pizza Place,Restaurants",25
+942,NY,10580,"Pizza,American restaurants,Pizza Place,Restaurants",19
+943,GA,30122,"Pizza Place,Restaurants",25
+944,FL,34104,"Pizza Place Berkshire Lakes,Pizza Place,Restaurants",25
+945,FL,33441,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+946,CO,80104,"Pizza,Carry-out food,Pizza Place,Restaurants",25
+947,OH,43230,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+948,CA,94703,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+949,CA,92509,"Pizza,Food and Beverage,Pizza Place,Restaurants",25
+950,CA,91607,"Pizza,Caterers,Italian restaurants,Pizza Place,Restaurants",25
+951,FL,32789,"Restaurant,Pizza Place,Restaurants",25
+952,CA,95376,Pizza Place,25
+953,NY,12601,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+954,VA,23502,Pizza Place,25
+955,UT,84088,"Restaurant,Pizza Place",25
+956,FL,33316,"Pizza,American restaurants,Karaoke,Pizza Place,Restaurants",40
+957,CA,91750,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+958,VA,23508,"Pizza,Caterers,Pizza Place and Cafeteria,Pizza Place,Cafeteria,Restaurants",25
+959,VA,22202,"Pizza,Restaurant,Pizza Place,Restaurants",25
+960,NY,10016,"Pizza,Italian,Pizza Place",25
+961,NC,28027,"Pizza,Pizza Place,Restaurants",25
+962,NY,11378,"Pizza,Restaurant,Pizza Place,Restaurants",25
+963,NY,11694,"Restaurant,Pizza Place,Restaurants",25
+964,NY,10458,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+965,NY,10471,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",40
+966,NY,10463,"Pizza,Restaurant,Pizza Place,Restaurants",25
+967,NY,10471,"Pizza,Pizza Place,Restaurants",25
+968,MD,21001,"Pizza,Caterers,American restaurants,Pizza Place,Restaurants",25
+969,IL,60108,"Pizza,Restaurant,Pizza Place,Restaurants",30
+970,MI,49024,"Pizza,Restaurant,wich Place,Pizza Place,Sandwich Place,Restaurants",25
+971,WA,98052,"Pizza,American restaurants,Pizza Place,Restaurants",25
+972,CA,91773,"Pizza,Restaurant,Pizza Place,Restaurants",25
+973,CA,90024,"Pizza,Restaurant,Pizza Place Westwood Village,Pizza Restaurants,American restaurants,Italian restaurants,Pizza Place,Restaurants",25
+974,CA,92870,"Pizza,American Restaurants,Pizza Place,Restaurants",25
+975,CA,91776,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+976,CA,94110,"Pizza,Restaurant,Pizza Place,Restaurants",25
+977,CA,90503,"Pizza,Restaurant,Karaoke,Pizza Place,Restaurants",25
+978,FL,33139,"Pizza,Restaurant,Pizza Place,Restaurants",25
+979,UT,84109,"Pizza,Restaurant,Pizza Place,Restaurants",25
+980,UT,84111,"Pizza,Pizza Place,Restaurants,Italian Restaurants",40
+981,TX,76248,"Pizza,Restaurant,Pizza Place,Restaurants",25
+982,IL,60609,"Pizza,Restaurant,Pizza Place,Restaurants",25
+983,PA,17033,"American Restaurant,Pizza Place",40
+984,MI,48034,Pizza Place,25
+985,IN,46805,"Pizza Place,Restaurants",25
+986,PA,18042,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+987,PA,18940,"Pizza,Restaurant,Pizza Place,Restaurants",25
+988,NY,11209,"Pizza,Restaurant,Pizza Place,Restaurants",25
+989,OH,44001,Pizza Place,25
+990,CA,92808,"Restaurant,Pizza Place",25
+991,PA,15108,"Restaurant,Pizza Place,Restaurants",25
+992,WA,98121,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+993,WI,53095,"Pizza,Karaoke,Pizza Place,Restaurants",25
+994,AR,72211,"Pizza,Pizza Place,Restaurants",25
+995,IL,60613,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+996,PA,19095,"Pizza,Restaurant,Pizza Place,Restaurants",25
+997,NY,11372,"Pizza,Restaurant,Italian Restaurant,Pizza Place,Restaurants",25
+998,NY,10014,"Pizza,Restaurant,Delicatessens,Pizza Place,Restaurants",40
+999,NY,11217,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1000,MI,49455,"Pizza Place,Restaurants",25
+1001,PA,19372,"Pizza,Italian Restaurant,Restaurant,Pizza Place,Restaurants",25
+1002,PA,19446,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1003,PA,15203,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1004,FL,32766,"Pizza,Pizza Place,Restaurants",25
+1005,NY,10470,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1006,CO,81147,"Pizza,Pizza Place,Restaurants",25
+1007,NY,11223,"Pizza,Restaurant,Pizza Place,Pizza Place Gravesend,Restaurants",25
+1008,NY,11795,"Restaurant,Pizza Place",25
+1009,CO,80210,"Restaurant,Pizza Place",25
+1010,UT,84060,"Pizza,Pizza Place,Restaurants",25
+1011,WA,98133-4415,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1012,GA,30318,Pizza Place,20
+1013,WA,98103,"Pizza,Restaurant,Italian,Greek Restaurant,Pizza Place",22
+1014,MI,48072-0916,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1015,CT,06801-1053,"Italian Restaurant,Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1016,NY,11225,Pizza Place,25
+1017,NY,10956,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+1018,CA,90405,"Pizza,Restaurant,Pizza Place,Pizza Place West Los Angeles,Restaurants",25
+1019,NY,11238,"Pizza,Restaurant,Pizza Place Clinton Hill,Pizza Place,Restaurants",25
+1020,TX,77030,"Pizza,Pizza Restaurants,Restaurant,Pizza Place,Restaurants",25
+1021,NY,11217,"Pizza,Restaurant,Take Out,Pizza Place Boerum Hill,Pizza Place,Restaurants,Pizza Delivery",25
+1022,CA,94116,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+1023,CA,92869,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1024,NY,11385,"Restaurant,Pizza Place,Restaurants",40
+1025,MI,48854,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1026,NY,11225,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+1027,PA,15206,"Pizza,American restaurants,Pizza Place,Restaurants",25
+1028,CA,91106,"Pizza,Restaurant,Chain Restaurant,Pizza Place,Restaurants",25
+1029,NY,10019,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",25
+1030,NY,10467,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1031,IL,60610,"Pizza,Italian Restaurant,Restaurant,Pizza Place,Restaurants",40
+1032,CA,94089,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",40
+1033,PA,18512,"Pizza,Pizza Place,Restaurants",25
+1034,NY,10458,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1035,MD,21230,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1036,TX,76107,"Pizza,Pizza Place Ridglea North,Pizza Place,Restaurants",25
+1037,NY,10009,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",25
+1038,NY,10026,"Pizza,Restaurant,Pizza Restaurants,Italian restaurants,Pizza Place,Restaurants",25
+1039,TX,75230,"Pizza,Pizza Restaurants,International restaurants,Bakery,Pizza Place,Restaurants",25
+1040,NY,11801,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+1041,PA,19406,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1042,PA,19102,"Pizza,Restaurant,American Restaurant,Pizza Place,Restaurants",25
+1043,GA,30043-3324,"Restaurant,Pizza Restaurants,Pizza Place,Restaurants",25
+1044,AK,99701,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+1045,NY,10006,"Pizza,Restaurant,Breakfast & Brunch,Pizza Place,Restaurants",25
+1046,PA,19149,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1047,MI,48185,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1048,FL,33141,"Pizza,Restaurant,Italian,Pizza Place",25
+1049,CO,81601,Pizza Place,25
+1050,MI,49512,Pizza Place,25
+1051,GA,31709,Pizza Place,40
+1052,CA,93230,"Hanford Restaurants,Pizza Place",25
+1053,IL,60471,Pizza Place,25
+1054,FL,34205,"Restaurant,Pizza Place",25
+1055,NY,11215,Pizza Place,25
+1056,PA,15642,"Bar,Pizza Place",25
+1057,CA,95060,Pizza Place,25
+1058,TX,75246-1522,"Restaurant,Pizza Place,Restaurants",25
+1059,TX,76107-9301,"Pizza Place,Foods",25
+1060,NY,10014,Pizza Place,25
+1061,NY,11040,"Restaurant,Pizza Place",25
+1062,NY,11729,"Pizza,Pizza Place",25
+1063,NV,89431,"Pizza,Pizza Place,Restaurants,Bars",25
+1064,NY,10119,"Italian Restaurant,Pizza Place",25
+1065,PA,19107,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1066,CA,94044,"Restaurant,Pizza Place",25
+1067,IL,60622,"Restaurant,Pizza Place",25
+1068,CA,92532,Pizza Place,25
+1069,NY,10012,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1070,NY,10014,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1071,PA,15224,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1072,MI,48453,Pizza Place,25
+1073,HI,96744,Pizza Place,25
+1074,CA,91436,"Restaurant,Pizza Place",40
+1075,OH,44103,"Pizza,Pizza Place,Pizza Place Fairfax",10
+1076,CA,93401,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+1077,DE,19966,"Pizza,Pizza Place,Restaurants",25
+1078,NY,11209,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1079,IL,60045,"Restaurant,Pizza Place",25
+1080,NV,89119,"Pizza,Restaurant,Pizza Restaurants,Fast Food,Pizza Place,Restaurants",25
+1081,NY,10580,Pizza Place,25
+1082,NY,14043,"Pizza,Pizza Place,Restaurants",25
+1083,NY,10018,"Italian Restaurant,Pizza Place",40
+1084,TX,77095,"Chinese Restaurant,Pizza Place",25
+1085,MI,48089,Pizza Place,25
+1086,CA,92021,"Italian Restaurant,Pizza Place",40
+1087,MI,48044,"Restaurant,Pizza Place,Restaurants",40
+1088,FL,32968,"Restaurant,Pizza Place",25
+1089,IL,60193,Pizza Place,25
+1090,UT,84065-2324,"Brick Pizza Oven,Pizza Place",25
+1091,WA,98166-2260,"Pizza,Pizza Place",40
+1092,NY,10024,"Pizza,Restaurant,Breakfast & Brunch,Pizza Place",25
+1093,NC,27701,"Italian Restaurant,Pizza Place",40
+1094,FL,33180,Pizza Place,25
+1095,IL,60191,Pizza Place,40
+1096,FL,33185,Pizza Place,25
+1097,NC,27262,"Italian Restaurant,Pizza Place",25
+1098,FL,34471,"Pizza,Italian Restaurant,Pizza Place,Restaurants",25
+1099,NE,68144,"Restaurant,Pizza Place",25
+1100,IL,60148,"Restaurant,Pizza Place",40
+1101,CA,91316,Pizza Place,25
+1102,NY,11747,"Italian Restaurant,Pizza Place",25
+1103,PA,19460,Pizza Place,25
+1104,TN,37919,Pizza Place,25
+1105,SC,29745,"Pizza Place,Restaurants",25
+1106,IL,60532,Pizza Place,25
+1107,WA,98036,"Italian Restaurant,Pizza Place",40
+1108,PA,19363,Pizza Place,25
+1109,CA,90025,Pizza Place,25
+1110,DE,19709,"Italian Restaurant,Pizza Place",25
+1111,CA,95127,"Pizza,Restaurant,Pizza Place",25
+1112,NC,27518,"Restaurant,Pizza Place",25
+1113,FL,33511,"Pizza,Karaoke,Pizza Place,Restaurants",25
+1114,TX,78666,Pizza Place,25
+1115,NY,11791,Pizza Place,25
+1116,VA,23233,"Pizza,Pizza Place,Restaurants,Ice Cream Shop",25
+1117,NY,10017,"Pizza Restaurants,Pizza Place,Family Restaurants,Restaurants",25
+1118,NY,10010,"Pizza Restaurants,Pizza Place,Restaurants",40
+1119,NY,14207,"Pizza,Pizza Restaurants,Pizza Place,Restaurants",25
+1120,CA,90042,"Pizza,Italian Restaurant,Restaurant,Pizza Restaurants,Pizza Place and Italian Restaurant,Pizza Place,Restaurants",25
+1121,CA,90046,"Pizza Restaurants,Pizza Place",25
+1122,NY,11735,"Pizza,Italian Restaurant,Pizza Restaurants,Italian restaurants,Pizza Place,Restaurants",40
+1123,NY,11102,"Pizza,Italian,Mexican,Pizza Place",25
+1124,NY,10012,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",40
+1125,NY,10128,"Pizza,Wings,Pizza Place,Locks & Locksmiths",40
+1126,NY,11215,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",25
+1127,NY,11417,"Pizza,Pizza Place",25
+1128,NY,11372,"Pizza,Restaurant,Pizza Place",25
+1129,NY,10022,"Pizza,Restaurant,Italian,Pizza Place",25
+1130,NY,11209,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",40
+1131,NY,10019,"Pizza,Restaurant,Wings,Breakfast & Brunch,Pizza Place",25
+1132,NY,11221,"Pizza,Restaurant,Wings,Pizza Place",25
+1133,NY,10065,"Pizza,Italian Restaurant,Italian,Pizza Place",25
+1134,NY,10014,"Pizza,Restaurant,Italian,American,Pizza Place,Restaurants",40
+1135,NY,10003,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",40
+1136,NY,10004,"Pizza,Restaurant,Pizza Place",25
+1137,NY,10001,"Pizza,Restaurant,Pizza Place",25
+1138,NY,10021,"Pizza,Restaurant,Pizza Place",25
+1139,NY,10016,"Pizza,Restaurant,Italian,Pizza Place",25
+1140,NY,10065,"Pizza,Restaurant,Italian,Pizza Place",25
+1141,NY,11215,"Pizza,Restaurant,Italian,Pizza Place,Sandwiches",25
+1142,CA,93105,"Restaurant,Pizza Place",40
+1143,ID,83705,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1144,MI,48044,"Restaurant,Pizza Place",25
+1145,NY,14150,Pizza Place,25
+1146,AZ,85296,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1147,NY,10463,"Restaurant,Pizza Place",25
+1148,NY,10471,"Restaurant,Pizza Place North Riverdale,Pizza Place",25
+1149,NY,10704,"Pizza Place,Pizza,Restaurants",25
+1150,NV,89052,"Restaurant,Pizza Place",25
+1151,MO,65616,"Restaurant,Pizza Place",25
+1152,TX,77079,"Restaurant,Pizza Place,Arcade",25
+1153,FL,34102,"Restaurant,Pizza Place",25
+1154,AZ,85335,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+1155,CA,90266,"Pizza,Restaurant,Italian,American,Pizza Place",40
+1156,AZ,85345,"Restaurant,Pizza Place",40
+1157,IL,60639,"Restaurant,Pizza Place Kelvin Park,Pizza Place",25
+1158,NY,11201,"New York City,Restaurant,Pizza Place Downtown Brooklyn,Pizza Place",40
+1159,MO,63144,"Restaurant,BBQ Joint,Pizza Place,Pizza Place and BBQ Joint",40
+1160,CA,93313,"Restaurant,Pizza Place",25
+1161,NC,28203,"Restaurant,Pizza Place",25
+1162,FL,33615,"Restaurant,Pizza Place",25
+1163,VA,22207,"Restaurant,Pizza Place",40
+1164,VA,22209,"Italian Restaurant,Restaurant,Pizza Place,Italian Pizza",40
+1165,NY,13207,"Restaurant,Pizza Place",25
+1166,NY,11772,"Restaurant,Pizza Place",25
+1167,FL,32218,"Restaurant,Pizza Place",25
+1168,CO,80301,"Restaurant,Pizza Place",25
+1169,TX,78758,"Restaurant,Pizza Place",25
+1170,CA,94560,"Pizza,Restaurant,Chain Restaurant,Pizza Place,Restaurants",25
+1171,CA,92020,"Pizza,Restaurant,Italian,Chain Restaurant,Pizza Place",25
+1172,KS,66202,"Restaurant,Pizza Place,Restaurants",25
+1173,PA,15024,"Restaurant,Pizza Place",25
+1174,PA,15132,"Restaurant,Pizza Place McKeesport - White Oak,Pizza Place",25
+1175,TX,77379,"Restaurant,Pizza Place",25
+1176,TX,77381,"Restaurant,Pizza Place",25
+1177,TX,78745,"Restaurant,Pizza Place",25
+1178,MI,48066,"Restaurant,Pizza Place",25
+1179,CA,91362,"Restaurant,Pizza Place",40
+1180,GA,30115,"Restaurant,Pizza Place",25
+1181,GA,30214,"Restaurant,Pizza Place",25
+1182,GA,30354,"Restaurant,Pizza Place",25
+1183,CA,95815,"Restaurant,Pizza Place,Pizza Place Arden Fair",40
+1184,TX,75150,"Restaurant,Pizza Place",25
+1185,TX,75961,"Restaurant,Pizza Place",25
+1186,CA,90712,"Pizza,Restaurant,Italian,Pizza Place,Salad,Californian",40
+1187,CA,90049,"Restaurant,Pizza Place",40
+1188,SC,29407,"Restaurant,Pizza Place",25
+1189,FL,33605,"Restaurant,Pizza Place",25
+1190,FL,33605,"Restaurant,Pizza Place",25
+1191,CA,94560,"Restaurant,Pizza Place",25
+1192,IL,60607,"Restaurant,Pizza Place West Town,Pizza Place,Restaurant West Town",25
+1193,CA,90049,"Restaurant,Pizza Place",25
+1194,NC,28412,"Restaurant,Pizza Place",40
+1195,OR,97138,"Restaurant,Pizza Place",25
+1196,TX,78212,"Pizza,Restaurant,Pizza Place,Restaurants",55
+1197,NY,10002,"Restaurant,Pizza Place",25
+1198,OH,44308,"Restaurant,Pizza Place Downtown Akron,Pizza Place",25
+1199,TX,75082,"Restaurant,Pizza Place",25
+1200,IL,60506,"Restaurant,Pizza Place",25
+1201,CA,95822,"Pizza,Restaurant,Pizza Place",25
+1202,CA,95823,"Restaurant,Pizza Place",25
+1203,MI,48071,"Restaurant,Pizza Place",25
+1204,CA,90245,"Pizza,Restaurant,Pizza Place",25
+1205,CA,94131,"Restaurant,Pizza Place",40
+1206,CA,94706,"Restaurant,Pizza Place",25
+1207,NV,89509,"Restaurant,Pizza Place",25
+1208,NY,11201,"Pizza,Restaurant,wich Place,Pizza Place,Sandwich Place",25
+1209,NV,89052,"Restaurant,Pizza Place",25
+1210,CA,92101,"Pizza,Restaurant,Pizza Place",25
+1211,TX,75202,"Restaurant,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+1212,NY,10009,"Restaurant,Pizza Place",25
+1213,PA,18505,"Restaurant,Pizza Place",40
+1214,WI,54016,"Restaurant,Pizza Place",25
+1215,AZ,85254,"Restaurant,Pizza Place",25
+1216,CA,91350,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1217,CA,92253,"Restaurant,Pizza Place",25
+1218,OR,97132,"Restaurant,Pizza Place,Restaurants",40
+1219,WI,54868,"Restaurant,Pizza Place",25
+1220,WI,53027,"Restaurant,Pizza Place",25
+1221,WI,53188,"Restaurant,Pizza Place",25
+1222,TX,75801,"Restaurant,Pizza Place,Restaurants",25
+1223,VA,23225,"Restaurant,Pizza Place",25
+1224,TX,78727,"Pizza,Restaurant,Chain Restaurant,Pizza Place",25
+1225,TX,77494,"Restaurant,Pizza Place",40
+1226,SC,29720,"Restaurant,Pizza Place",25
+1227,FL,32174,"Restaurant,Pizza Place",25
+1228,FL,33710,"Restaurant,Pizza Place",25
+1229,FL,32937,"Restaurant,Pizza Place",25
+1230,NC,27025,"Restaurant,Pizza Place",25
+1231,NC,28791,"Restaurant,Pizza Place",25
+1232,SC,29928,"Restaurant,wich Place,Pizza Place",25
+1233,SC,29928,"Restaurant,Pizza Place",25
+1234,UT,84094,"Restaurant,Pizza Place",25
+1235,IA,52302,"Restaurant,Pizza Place",40
+1236,OH,45248,"Restaurant,Pizza Place",25
+1237,CA,90293,"Restaurant,Pizza Place",25
+1238,MO,63011,"Restaurant,Pizza Place",25
+1239,WI,54016,"Restaurant,Pizza Place",25
+1240,TN,37221,"Restaurant,Pizza Place",25
+1241,IL,60622,"Pizza,Restaurant,Pizza Place",40
+1242,NY,14043,"Restaurant,Pizza Place",25
+1243,FL,33155,"Pizza,Restaurant,Pizza Place,Miami Restaurants",25
+1244,GA,30350,"Restaurant,Pizza Place",25
+1245,GA,30605,"Restaurant,Pizza Place",25
+1246,OR,97202,"Restaurant,Pizza Place",25
+1247,IL,60173,"Restaurant,Pizza Place",25
+1248,NV,89431,"Restaurant,Pizza Place",25
+1249,TX,77479,"Restaurant,Pizza Place",40
+1250,CA,94061,Pizza Place,25
+1251,AZ,85206,"Pizza,Restaurant,Italian,Pizza Place Superstition Springs,Pizza Place,Restaurants",25
+1252,NY,10022,"Restaurant,Pizza Place",25
+1253,VA,20155,Pizza Place,25
+1254,WA,98037,Pizza Place,25
+1255,PA,19125,"Restaurant,Pizza Place,Pizza Place North Philadelphia",25
+1256,CA,94304,Pizza Place,40
+1257,CA,90505,"Restaurant,Pizza Place",25
+1258,PA,17870,"Restaurant,Pizza Place",25
+1259,AZ,85020,"Italian Restaurant,Pizza Place",25
+1260,PA,19608,"Restaurant,Pizza Place",40
+1261,TX,78731,"Pizza,Restaurant,Bar,American,Deli & Sandwich,wich Place,Sandwich Place, Bar, and Pizza Place,Pizza Place",25
+1262,TX,78613,"Restaurant,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1263,AZ,85208,"Pizza,Restaurant,Pizza Place",40
+1264,AZ,85210,"Pizza,Restaurant,Italian,Pizza Place",40
+1265,AZ,85205,"Restaurant,Pizza Place",25
+1266,TN,37402,"Restaurant,Pizza Place,Pizza Place Downtown Chattanooga",25
+1267,NY,14213,"Restaurant,Pizza Place",25
+1268,NY,14221,"Restaurant,Pizza Place",40
+1269,FL,34420,"Restaurant,Pizza Place",25
+1270,OH,43202,"Pizza Place,Pizzeria,Tempat Pizza,Restaurants",25
+1271,TX,78218,"Pizza,Restaurant,Pizza Place,Pizza Place Sunrise,Restaurants,Italian Restaurants",25
+1272,PA,17104,"Restaurant,Pizza Place",25
+1273,NY,11514,"Restaurant,Pizza Place",25
+1274,NY,11367,"Restaurant,Pizza Place",25
+1275,OH,43085,"Pizza Place,Pizzeria,Tempat Pizza",25
+1276,IL,60202,"Restaurant,Pizza Place",40
+1277,CA,92057,"Restaurant,Pizza Place",25
+1278,CA,92806,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+1279,CA,91355,"Restaurant,Pizza Place,Pizza Place Valencia",25
+1280,CA,90808,"Pizza,Restaurant,Italian,Pizza Place",25
+1281,NY,11106,"Restaurant,Pizza Place",25
+1282,NY,10002,"Pizza,Restaurant,Pizza Place",25
+1283,NC,28277,Pizza Place,40
+1284,NC,28277,Pizza Place,40
+1285,FL,32129,Pizza Place,25
+1286,NY,11211,"Restaurant,Bar,Pizza Place",40
+1287,CA,92649,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1288,FL,33186,"Restaurant,Pizza Place",25
+1289,MI,49006,"Restaurant,Pizza Place",25
+1290,NY,11208,"Restaurant,Pizza Place",25
+1291,MI,48088,"Restaurant,Pizza Place",25
+1292,MI,48176,"Restaurant,Pizza Place",25
+1293,MI,48309,"Restaurant,Pizza Place Rochester,Pizza Place",25
+1294,WA,99223,"Restaurant,Pizza Place,Pub",40
+1295,IL,60462,"Restaurant,Pizza Place",25
+1296,IL,60154,"Restaurant,Pizza Place",25
+1297,IL,60035,"Restaurant,Pizza Place",25
+1298,KS,66062,"Restaurant,Pizza Place",25
+1299,OH,43219,"Pizza Place Northeast Columbus,Restaurant,Pizza Place",25
+1300,TX,76244,"Restaurant,Pizza Place",25
+1301,WA,98373,"Restaurant,Pizza Place",25
+1302,TX,76008,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1303,TX,78258,"Restaurant,pizza place",25
+1304,TX,75703,"Restaurant,Pizza Place",25
+1305,NV,89169,"Restaurant,Pizza Place",25
+1306,CA,94115,"Restaurant,Pizza Place,Pizza Place Pacific Heights",40
+1307,PA,15090,"Restaurant,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+1308,CA,94566,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1309,NY,10016,"Pizza,Restaurant,Pizza Place",25
+1310,TX,78216-6164,"Pizza,Restaurant,Pizza Place,Restaurants",55
+1311,MO,65203-3700,"Pizza,Bar,Brick Pizza Oven,Pizza Place,Restaurants",40
+1312,CA,94301,"Pizza,Restaurant,Pizza Place,Pizza Place University South,Restaurants",25
+1313,NY,11372,"Restaurant,Pizza Place",25
+1314,NY,11228,"Pizza Place and Italian Restaurant Dyker Heights,Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1315,WI,53217,"Restaurant,Pizza Place",25
+1316,NY,11205,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1317,NY,11803,"Restaurant,Pizza Place,Restaurants",25
+1318,TX,77429,"Pizza,Restaurant,International restaurants,Pizza Place and Salad Place,Salad Place,Italian restaurants,Pizza Place,Restaurants",40
+1319,CA,90802,"Restaurant,Pizza Place",40
+1320,IL,60631,"Restaurant,Pizza Place Northwest Side,Pizza Place",40
+1321,CA,92116,"Pizza,Restaurant,Vegetarian,Pizza Place,Vegan",25
+1322,IL,60607,"Pizza,Italian Restaurant,Restaurant,Pizza Restaurants,Italian,Pizza Place,Restaurants",25
+1323,WI,54401,"Restaurant,Pizza Place",25
+1324,NY,11783,"Restaurant,Pizza Place",25
+1325,OH,43229,"Restaurant,Pizza Place",25
+1326,IL,61611,"Pizza,Restaurant,Pizza Place,Food & Entertainment,Restaurants",25
+1327,NY,10003,"Restaurant,Pizza Place",25
+1328,TX,75228,"Italian Restaurant,Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1329,IL,60515,"Pizza,Italian restaurants,Pizza Place,Restaurants",25
+1330,PA,18976,"Restaurant,Pizza Place",25
+1331,PA,18951,"Restaurant,Pizza Place",25
+1332,IN,47274,"Restaurant,Pizza Place",40
+1333,MN,55105,"Restaurant,Pizza Place",25
+1334,NY,10469,"Pizza,Restaurant,Pizza Place",25
+1335,TX,75254,"Restaurant,Pizza Restaurants,Pizza Place,Restaurants",25
+1336,CO,80302,"Pizza,Restaurant,Pizza Place",40
+1337,CO,80920,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1338,IL,60622,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1339,NY,10019,"Pizza,Restaurant,Italian,Pizza Place",25
+1340,MD,21701,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1341,VA,22310,"Pizza,Restaurant,Greek Restaurants,Pizza Place,Restaurants",25
+1342,WA,98201,"Pizza,American Restaurants,Restaurant,Pizza Place,Restaurants",25
+1343,NY,10543,"Restaurant,Pizza Place",25
+1344,FL,32246,"Restaurant,Pizza Place",40
+1345,NY,11211,"Italian Restaurant,Restaurant,Italian Restaurant and Pizza Place Williamsburg,Pizza Place,Italian Restaurant and Pizza Place",55
+1346,TX,78759,"Pizza,Restaurant,Austin Restaurants,Pizza Place",25
+1347,FL,33139,"Pizza,Italian Restaurant,Restaurant,Italian,Salad Place,Pizza Place,Salad",40
+1348,FL,32073,"Restaurant,Pizza Place",40
+1349,CA,90045,"Pizza,Italian Restaurant,Restaurant,Pizza Place",25
+1350,CA,91351,"Restaurant,Pizza Place",40
+1351,NM,87102,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+1352,CO,80503,"Restaurant,Pizza Place",25
+1353,IL,61201,"Restaurant,Pizza Place",25
+1354,OH,44118,"Restaurant,Pizza Place",40
+1355,CA,90701,"Restaurant,Pizza Place",25
+1356,MI,48423,"Restaurant,Pizza Place",25
+1357,TX,79912,"Pizza,Restaurant,Pizza Place and Sandwich Place,wich Place,Take Out Restaurants,Pizza Place,Restaurants",25
+1358,MI,48334,"Restaurant,Pizza Place",25
+1359,NY,10461,"Restaurant,Pizza Place",25
+1360,WI,54703,"Restaurant,Pizza Place",25
+1361,NY,11570,"Restaurant,Pizza Place",25
+1362,PA,18322,Pizza Place,25
+1363,MI,48197,"Restaurant,Pizza Place",40
+1364,PA,19355,"Restaurant,Pizza Place",25
+1365,NY,10002,"Restaurant,Pizza Place",25
+1366,VA,22303,"Restaurant,Pizza Place",25
+1367,AZ,85705,"Restaurant,Pizza Place",25
+1368,MI,48858,"Restaurant,Pizza Place",25
+1369,GA,30306,"Restaurant,Pizza Place,Arcade",25
+1370,WI,53207,"Restaurant,Pizza Place,Restaurants",40
+1371,FL,33602,"Restaurant,Pizza Place",25
+1372,NY,10710,"Restaurant,Pizza Place,Pizza Place Northeast Yonkers",40
+1373,TX,75219,"Italian Restaurant,Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+1374,NY,10462,"Restaurant,Pizza Place",25
+1375,FL,32446,"Restaurant,Pizza Place,Restaurants",25
+1376,PA,19428,"Restaurant,Pizza Place",25
+1377,FL,34474,"Restaurant,Pizza Place",25
+1378,NY,11103,"Pizza,Restaurant,Pizza Place",25
+1379,MN,55116,"Restaurant,Pizza Place",25
+1380,MN,55426,"Restaurant,Pizza Place",25
+1381,OH,43604,"Restaurant,Pizza Place",40
+1382,NY,11226,"Restaurant,Pizza Place,Restaurants",25
+1383,NY,11226,"Pizza,Restaurant,Pizza Place,Pizza Place Flatbush",25
+1384,TX,75039,"Restaurant,Pizza Place",25
+1385,IN,46703,"Restaurant,Pizza Place",40
+1386,NY,11702,"Pizza,Restaurant,Food Delivery,Pizza Place,Restaurants",25
+1387,NY,12866,"Restaurant,Pizza Place",25
+1388,CA,94112,"Restaurant,Pizza Place",25
+1389,CA,95678,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",40
+1390,CA,92660,"Restaurant,Pizza Place",40
+1391,WA,98597,"Italian Restaurant,Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1392,MN,55343,"Restaurant,Pizza Place,Restaurants",25
+1393,NY,10514,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1394,WV,25840,"Brewery,Restaurant,Pizza Place and Brewery,Pizza Place",40
+1395,IN,46750,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1396,CA,94619,"Restaurant,Pizza Place",40
+1397,NY,11215,"Restaurant,Pizza Place",25
+1398,PA,15221,"Restaurant,Pizza Place",25
+1399,FL,32217,"Restaurant,Pizza Place",25
+1400,CA,95816,"Restaurant,Pizza Place,Restaurants",25
+1401,TX,78412,"Restaurant,Pizza Place",25
+1402,CA,94523,"Restaurant,Pizza Place",25
+1403,OH,44512,"Restaurant,Pizza Place",25
+1404,CA,90807,"Pizza Place Bixby Knolls,Restaurant,Pizza Place",40
+1405,WI,53226,"Restaurant,Pizza Place",25
+1406,WI,53066,"Restaurant,Pizza Place",25
+1407,WI,53207,"Restaurant,Pizza Place",40
+1408,WI,53226,"Restaurant,Pizza Place",25
+1409,CA,91107,"Restaurant,Pizza Place",25
+1410,AZ,85012,"Restaurant,Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",40
+1411,FL,33129,"Pizza,Restaurant,Pizza Place",25
+1412,PA,18901,"Restaurant,Pizza Place",25
+1413,NY,11222,"Restaurant,Pizza Place",40
+1414,TX,75010,"Restaurant,Pizza Place",25
+1415,OH,45202,"Restaurant,Bar,Pizza Place and Bar,Pizza Place",25
+1416,SC,29621,"Restaurant,Pizza Place",25
+1417,TX,77479,"Restaurant,Pizza Place",25
+1418,IL,60614,"Restaurant,Pizza Place",30
+1419,SC,29582,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1420,OK,73120,"Restaurant,Pizza Place",25
+1421,NY,14624,"Restaurant,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1422,VA,23510,"Restaurant,Pizza Place",25
+1423,WA,98201,"Restaurant,Pizza Place",25
+1424,UT,84095,"Restaurant,Pizza Place",25
+1425,WI,53024,"Restaurant,Pizza Place",25
+1426,PA,15222,"Restaurant,Pizza Place",40
+1427,NY,11378,"Restaurant,Pizza Place",25
+1428,GA,30080,"Restaurant,Pizza Place",25
+1429,NY,10968,"Restaurant,Pizza Place",25
+1430,AZ,85250,"Pizza,Restaurant,Italian,Pizza Place",40
+1431,CA,94704,"Restaurant,Pizza Place",25
+1432,NY,14850,"Restaurant,Pizza Place",25
+1433,NY,12084,"Restaurant,Pizza Place",25
+1434,SD,57105,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1435,NY,11233,"Restaurant,Pizza Place and Caf Bedford-Stuyvesant,Caf,Pizza Place",25
+1436,WA,98444,"Restaurant,Pizza Place",25
+1437,GA,30062,"Restaurant,Pizza Place",40
+1438,TX,76107,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1439,NY,11367,"Restaurant,Pizza Place",25
+1440,NY,13214,"Restaurant,Pizza Place",25
+1441,IL,60622,"Pizza,Restaurant,American,Pizza Place,Pizza Place East Ukrainian Village",40
+1442,NY,11417,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+1443,CA,94066,"Restaurant,Pizza Place",25
+1444,PA,15232,"Restaurant,Pizza Place",25
+1445,NY,10037,"Restaurant,Pizza Place",25
+1446,NY,11421,"Pizza,Restaurant,Pizza Place",25
+1447,IL,60607,"Restaurant,Pizza Place",25
+1448,TX,77339,"Restaurant,Pizza Place",40
+1449,AZ,85308,"Pizza,Restaurant,Pizza Place",25
+1450,AZ,85340,"Pizza,Restaurant,Caterers,Pizza Place,Restaurants",25
+1451,AZ,85249,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1452,NY,11557,"Restaurant,Pizza Place",25
+1453,NY,10022,"Pizza,Restaurant,Salad Place,wich Place,Pizza Place",25
+1454,FL,32809,"Restaurant,Pizza Place",25
+1455,CA,90068,"Restaurant,Pizza Place and Sandwich Place,wich Place,Pizza Place",25
+1456,GA,30041,"Restaurant,Pizza Place",25
+1457,PA,17815,"Restaurant,Pizza Place",25
+1458,NY,10128,"Restaurant,Pizza Place",30
+1459,PA,18411,"Restaurant,Pizza Place",25
+1460,NY,10012,"Restaurant,Pizza Place",25
+1461,NC,27106,"Restaurant,Pizza Place",25
+1462,TX,78240,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1463,NY,10009,"Restaurant,Pizza Place",25
+1464,NY,10002,"Restaurant,Pizza Place",25
+1465,PA,15642,"Restaurant,Pizza Place",25
+1466,OH,45154,"Restaurant,Pizza Place",25
+1467,OH,45247,"Restaurant,Pizza Place",25
+1468,OH,45246,"Restaurant,Pizza Place",40
+1469,PA,19468,"Restaurant,Pizza Place",25
+1470,GA,30013,"Restaurant,Pizza Place",25
+1471,CA,92127,"Restaurant,Pizza Restaurants,Pizza Place",25
+1472,NC,28270,"Restaurant,Pizza Place",40
+1473,TX,78701,"Restaurant,Pizza Place",25
+1474,IN,46229,"Pizza,Restaurant,Food Delivery,Pizza Place,Restaurants",40
+1475,MI,48642,"Restaurant,Pizza Place,Restaurants",20
+1476,KS,67401,"Restaurant,Pizza Place",25
+1477,AZ,85213,"Restaurant,Pizza Place",25
+1478,KY,40214,"Restaurant,Pizza Place",25
+1479,IN,46226,"Restaurant,Pizza Place",25
+1480,GA,31324,"Restaurant,Pizza Place",25
+1481,NY,14094,"Restaurant,Pizza Place",25
+1482,NY,10006,"Pizza,Restaurant,Italian Restaurant,Pizza Place",25
+1483,NY,10007,"Pizza,Restaurant,Italian,Pizza Place",25
+1484,PA,19149,"Restaurant,Pizza Place Mayfair,Pizza Place",25
+1485,CA,94014,"Pizza,Restaurant,American,Fast Food,Pizza Place",25
+1486,FL,33611,"Pizza,Restaurant,Pizza Place,Pizza Place Southwest Tampa,Restaurants",25
+1487,CA,92648,"Restaurant,Pizza Place",25
+1488,CA,92646,"Restaurant,Pizza Place",25
+1489,NY,10007,"Pizza,Restaurant,Fast Food,Pizza Place",25
+1490,TN,37922,"Restaurant,Pizza Place",25
+1491,PA,17236,"Restaurant,Pizza Place",25
+1492,IL,61264,"Restaurant,Pizza Place",25
+1493,CA,95014,"Restaurant,Pizza Place,Sandwich Place",25
+1494,GA,31210,"Pizza,Restaurant,Pizza Place",25
+1495,MO,63376,"Restaurant,Pizza Place",25
+1496,MI,48047,"Restaurant,Pizza Place",25
+1497,MI,48152,"Restaurant,Pizza Place",25
+1498,MI,48036,"Restaurant,Pizza Place",25
+1499,NY,14092,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1500,PA,19002,"Restaurant,Pizza Place",25
+1501,PA,19147,"Pizza,Restaurant,Italian,Pizza Place",25
+1502,AZ,85719,"Restaurant,Pizza Place",40
+1503,NY,11215,"Restaurant,Pizza Place",40
+1504,FL,32223,"Pizza,Pizza Place Loretto,Restaurant,Karaoke,Pizza Place,Restaurants",25
+1505,NY,11530,"Restaurant,Pizza Place,Restaurants",25
+1506,NY,14202,"Restaurant,Pizza Place",25
+1507,MI,49686,"Restaurant,Pizza Place",25
+1508,WI,54914,"Restaurant,Pizza Place Downtown Appleton,Pizza Place",40
+1509,AZ,85021,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+1510,IL,60133,"Pizza,Restaurant,Pizza Place,Food & Entertainment,Restaurants",25
+1511,IL,60177,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1512,TX,75034,"Restaurant,pizza place",40
+1513,FL,34695,"Restaurant,Pizza Place",25
+1514,FL,32817,"Pizza,Restaurant,Pizza Place",25
+1515,OH,43220,"Restaurant,Pizza Place",25
+1516,CA,90211,"Pizza Place,Pizza Place West Los Angeles",25
+1517,GA,30161,"Restaurant,Pizza Place",25
+1518,PA,16201,Pizza Place,25
+1519,PA,15131,"Italian Restaurant,Pizza Place",25
+1520,NY,10509,Pizza Place,25
+1521,CA,91790,Pizza Place,25
+1522,TX,75206,"Italian Restaurant,Pizza Place",40
+1523,MO,65584,Pizza Place,25
+1524,OK,74063,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1525,IA,52722,"Pizza Place,Sports Bar",25
+1526,CA,94619,"Pizza,Restaurant,Pizza Place",25
+1527,CA,94121,"Italian Restaurant,Pizza Place",40
+1528,TX,78750,"Italian Restaurant,Pizza Place",40
+1529,NE,68136,Pizza Place,25
+1530,PA,19063,"Restaurant,Pizza Place",25
+1531,WA,98126,Pizza Place,25
+1532,NC,27707,Pizza Place,40
+1533,TN,37064,Pizza Place,25
+1534,CA,91364,"Pizza,Restaurant,Pizza Place",25
+1535,NY,13440,"Pizza Place,Pizza Restaurant",25
+1536,MO,63103,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place and Italian Restaurant Grand Center,Pizza Place",40
+1537,NC,28269,Pizza Place,40
+1538,CO,80033,"Pizza,Restaurant,Pizza Place",25
+1539,OR,97223,"Restaurant,Pizza Place",25
+1540,AR,72761,Pizza Place,25
+1541,SC,29572,Pizza Place,25
+1542,WA,98116,Pizza Place,25
+1543,NC,28205,"Restaurant,Pizza Place",40
+1544,CO,80829,Pizza Place,25
+1545,IL,60018,Pizza Place,25
+1546,OR,97239,Pizza Place,25
+1547,NY,11753,"Italian Restaurant,Pizza Place",40
+1548,CA,95125,"Restaurant,Pizza Place",25
+1549,MO,65807,"Mexican Restaurant,Pizza Place",25
+1550,WI,54703,Pizza Place,25
+1551,FL,32763,Pizza Place,25
+1552,CA,91764,"Pizza,Restaurant,Caterers,Pizza Place",25
+1553,CA,94704,"Pizza Place,Pizza Place Downtown Berkeley",25
+1554,TX,76107,Pizza Place,25
+1555,DE,19803,Pizza Place,25
+1556,NY,11751,Pizza Place,25
+1557,MI,48152,"Restaurant,Pizza Place",25
+1558,OH,44060,"Restaurant,Pizza Place",25
+1559,NY,12206,"American Restaurant,American Restaurant and Pizza Place,Pizza Place",40
+1560,IL,60106,Pizza Place,25
+1561,NC,28403,"Italian Restaurant,Pizza Place",25
+1562,TX,78411,"American Restaurant,Pizza Place",25
+1563,NV,89169,Pizza Place,25
+1564,PA,15650,"Italian Restaurant,Pizza Place",40
+1565,NC,28031,"Pizza Place,Sandwich Place",25
+1566,IL,60631,Pizza Place,25
+1567,NY,14215,"Pizza Place Cleveland Hill,Pizza Place",25
+1568,CA,94122,Pizza Place,25
+1569,NY,10011,"Italian Restaurant,Pizza Place",25
+1570,PA,18966,Pizza Place,25
+1571,KY,40241,Pizza Place,25
+1572,NC,27610,Pizza Place,40
+1573,OH,45052,Pizza Place,40
+1574,FL,32176,"Pizza Place,Fl\\pizza Place",25
+1575,MD,21043,Pizza Place,25
+1576,NY,13760,Pizza Place,25
+1577,NY,11229,"Pizza Place Gerritsen Beach,Pizza Place",25
+1578,PA,15236,"wich Place,Pizza Place",25
+1579,NY,11001,Pizza Place,25
+1580,IL,60115,"Pizza,Pizza Place,Restaurants",25
+1581,FL,33067,"Pizza,Pizza Place,Restaurants,Italian Restaurants",25
+1582,TX,75093,Pizza Place,25
+1583,OH,44106,"Italian Restaurant,Pizza Place",25
+1584,NY,11757,Pizza Place,25
+1585,NM,87113,"Restaurant,Pizza Place Nor Este,Pizza Place",25
+1586,NY,12210,Pizza Place,40
+1587,MD,21201,Pizza Place,25
+1588,IL,60139,Pizza Place,25
+1589,CA,90042,"Restaurant,Pizza Place Highland Park,Pizza Place",25
+1590,CA,95032,"Restaurant,Pizza Place",25
+1591,CO,80302,"Restaurant,Pizza Place",25
+1592,OH,45231,"Restaurant,Pizza Place",25
+1593,OH,45219,"Restaurant,Pizza Place",25
+1594,OH,45102,"Restaurant,Pizza Place",25
+1595,FL,34957,"Restaurant,Pizza Place",25
+1596,FL,32904,"Restaurant,Pizza Place",25
+1597,FL,32771,"Restaurant,Pizza Place",25
+1598,MI,49525,"Restaurant,Pizza Place",25
+1599,GA,30314,"Restaurant,Pizza Place,Pizza Place Castleberry Hill",25
+1600,GA,30024,"Restaurant,Pizza Place",40
+1601,MI,48051,"Pizza,Restaurant,American restaurants,Pizza Place,Restaurants",25
+1602,TX,79902,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1603,KS,67206,"Restaurant,Pizza Place",25
+1604,WA,98661,"Restaurant,Pizza Place",25
+1605,WA,98682,"Restaurant,Pizza Place",25
+1606,WA,98683,"Restaurant,Pizza Place",25
+1607,MO,65203,"Restaurant,Pizza Place",25
+1608,MS,39042,"Restaurant,Pizza Place",25
+1609,IN,46237,"Restaurant,Pizza Place,Restaurants",25
+1610,FL,32822,"Restaurant,Pizza Place",25
+1611,TN,37221,"Restaurant,Pizza Place",25
+1612,AR,72712,"Restaurant,Pizza Place",40
+1613,GA,30045,"Restaurant,Bar,Pizza Place",40
+1614,NY,12208,"Restaurant,Pizza Place",25
+1615,AZ,85254,"Restaurant,Pizza Place",25
+1616,NY,11217,"Pizza,Restaurant,Italian,Pizza Place North Slope,Pizza Place",25
+1617,IL,60451,"Restaurant,Pizza Place",25
+1618,FL,32801,"Restaurant,Pizza Place",25
+1619,IL,60602,"Restaurant,Pizza Place",25
+1620,IN,46220,"Pizza,Restaurant,Italian Restaurant,Pizza Place,Restaurants",25
+1621,CA,92708,"Pizza,Restaurant,Italian,Pizza Place,Restaurants",25
+1622,OH,45067,"Restaurant,Pizza Place",25
+1623,OH,45068,"Restaurant,Pizza Place",25
+1624,OH,45227,"Restaurant,Pizza Place",25
+1625,MN,55024,"Restaurant,Pizza Place",25
+1626,IL,60018,"Restaurant,Pizza Place",25
+1627,TX,76103,"Restaurant,Pizza Place",25
+1628,MS,39531,"Restaurant,Pizza Place",25
+1629,OH,43213,"Restaurant,Pizza Place",25
+1630,NY,12572,"Restaurant,Pizza Place",25
+1631,AZ,85215,"Restaurant,Pizza Place",25
+1632,IN,46706,"Restaurant,Pizza Place",25
+1633,IL,60005,"Restaurant,Pizza Place",40
+1634,CO,80202,"Restaurant,Pizza Place,Pizza Place Highland",40
+1635,FL,33181,"Restaurant,Pizza Place",25
+1636,CA,91350,"Pizza,Restaurant,Pizza Place",25
+1637,TX,78702,"Restaurant,Pizza Place",25
+1638,AZ,85260,"Restaurant,Pizza Place",25
+1639,NY,14830,"Restaurant,Pizza Place",25
+1640,KY,41042,"Restaurant,Pizza Place",25
+1641,OH,45227,"Restaurant,Pizza Place",25
+1642,CA,92116,"Restaurant,Pizza Place",40
+1643,CA,94115,"Pizza,Restaurant,Italian,Pizza Place",40
+1644,OH,44691,"Restaurant,Pizza Place",25
+1645,VA,24210,"Restaurant,Art Gallery,Pizza Place,Pizza Place and Art Gallery",25
+1646,CO,80923,"Restaurant,Pizza Place,Restaurants",25
+1647,GA,30030,"Restaurant,Pizza Place",25
+1648,AR,72764,"Restaurant,Pizza Place",25
+1649,OK,74006,"Restaurant,Pizza Place",25
+1650,NM,87505,"Restaurant,Pizza Place",25
+1651,AZ,85050,"Restaurant,Pizza Place",25
+1652,NY,11787,"Restaurant,Pizza Place",25
+1653,FL,33431,"Restaurant,American Restaurant,Pizza Place and American Restaurant,Pizza Place",40
+1654,NY,10036,"Pizza,Restaurant,Breakfast & Brunch,Pizza Place",25
+1655,NV,89119,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1656,AZ,85254,"Pizza,Restaurant,Pizza Place",40
+1657,MO,63117,"Restaurant,Pizza Place",40
+1658,NY,11214,"Restaurant,Pizza Place,Pizza Place Gravesend",25
+1659,TX,79902,"Restaurant,Pizza Place",25
+1660,NY,11104,"Restaurant,Pizza Place",25
+1661,CA,94109,"Restaurant,Pizza Place Lower Nob Hill,Pizza Place",25
+1662,NY,11771,"Restaurant,Pizza Place",25
+1663,CA,91327,"Restaurant,Pizza Place Porter Ranch,Counselor,Pizza Place,Healthcare Provider",25
+1664,PA,18929,"Restaurant,Pizza Place",25
+1665,NY,10707,"Restaurant,Pizza Place",25
+1666,AZ,85085,"Restaurant,Pizza Restaurants,Pizza Place,Italian Restaurants",25
+1667,CA,95819,"Restaurant,Pizza Place",25
+1668,NY,13421,"Restaurant,Pizza Place",25
+1669,OH,45426,"Restaurant,Pizza Place",25
+1670,OH,45804,"Restaurant,Pizza Place",25
+1671,NM,87532,"Restaurant,Pizza Place",25
+1672,IN,47302,"Restaurant,Pizza Place",25
+1673,IL,60610,"Restaurant,Pizza Place",25
+1674,SC,29401,"Pizza,Restaurant,Pizza Place,Restaurants,Italian Restaurants",25
+1675,AZ,85383,"Restaurant,Pizza Place",25
+1676,OH,43123,"Pizza,Caterers,Pizza Place,Restaurants,Italian Restaurants",25
+1677,FL,32780,Pizza Place,25
+1678,IL,60607,Pizza Place,25
+1679,NY,14094,Pizza Place,25
+1680,AZ,86351,"Pizza,Food and Beverage,Pizza Place",25
+1681,NY,11507,Pizza Place,25
+1682,WA,98105,"Pizza,Pizza Place,Restaurants,Italian Restaurants",25
+1683,VA,22602,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+1684,DE,19713,Pizza Place,25
+1685,PA,19030,Pizza Place,25
+1686,NY,12303,"Restaurant,Pizza Place",25
+1687,PA,17404,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1688,PA,19106,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1689,FL,32707,"Restaurant,Pizza Place",25
+1690,MN,55125,"Restaurant,Pizza Place",25
+1691,GA,30501,Pizza Place,25
+1692,PA,18015,Pizza Place,25
+1693,IN,46601,"Restaurant,wich Place,Pizza Place",25
+1694,IN,46615,"Restaurant,Pizza Place",40
+1695,MI,49442,Pizza Place,25
+1696,CA,92562,Pizza Place,25
+1697,TX,75205,"Pizza,Restaurant,Italian,Pizza Place,Greek",40
+1698,IL,60171,"Restaurant,Pizza Place",25
+1699,WA,98117,"Pizza,Restaurant,Italian restaurants,Pizza Place,Restaurants",25
+1700,NE,68503,Pizza Place,25
+1701,PA,17552,"Restaurant,Pizza Place",25
+1702,NY,14075,Pizza Place,25
+1703,NY,14032,"Pizza,Pizza Place,Restaurants",25
+1704,NY,11726,Pizza Place,25
+1705,NY,11704,Pizza Place,40
+1706,NY,11706,"Pizza Place,Catering,Restaurants",25
+1707,TX,78154,Pizza Place,25
+1708,NY,10522,Pizza Place,25
+1709,FL,32707,"Italian Restaurant,Pizza Place",40
+1710,CA,94541,"Pizza,Restaurant,Pizza Place,Restaurants",25
+1711,FL,33458,"Italian Restaurant,Pizza Place",40
+1712,CA,94582,Pizza Place,25
+1713,MN,55387,"Restaurant,Pizza Place",25
+1714,NM,88001-5672,Pizza Place,25
+1715,CO,80134,Pizza Place,25
+1716,NY,11703,Pizza Place,25
+1717,NY,11803,Pizza Place,25
+1718,NY,11205,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place and Italian Restaurant Clinton Hill,Pizza Place",40
+1719,TX,77546,Pizza Place,25
+1720,CA,94110,"Pizza,Indian Restaurant,Restaurant,Pizza Place,Fusion",40
+1721,CO,80129,Pizza Place,25
+1722,UT,84119,"Restaurant,Pizza Place",25
+1723,NY,11010,Pizza Place,25
+1724,NY,11554,Pizza Place,25
+1725,NY,11566,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1726,CA,92708,Pizza Place,25
+1727,MD,21777,"Pizza,Caterers,Pizza Place,Restaurants",25
+1728,NY,14424,Pizza Place,25
+1729,VA,23233,Pizza Place,25
+1730,SC,29349,Pizza Place,25
+1731,NC,27401,"Pizza,Delicatessens,American restaurants,Pizza Place,Restaurants",25
+1732,VA,20136,Pizza Place,40
+1733,VA,20176,"Restaurant,Pizza Place",25
+1734,CA,91786,"Restaurant,Pizza Place",25
+1735,WA,98020,Pizza Place,25
+1736,MI,49426,"Restaurant,Pizza Place and Sandwich Place,wich Place,Pizza Place,Pizza Restaurant,Sandwich Place",25
+1737,NC,28792,Pizza Place,25
+1738,NC,28711,Pizza Place,40
+1739,IL,60020,Pizza Place,25
+1740,PA,15317,Pizza Place,25
+1741,PA,19403,"Restaurant,Pizza Place",25
+1742,IN,47710,"Restaurant,Pizza Place",25
+1743,VA,22301,Pizza Place,25
+1744,OR,97223,"Restaurant,Pizza Place",25
+1745,OR,97219,"Restaurant,Pizza Place",25
+1746,NY,10003,"Restaurant,Pizza Place",25
+1747,WA,98007,"Restaurant,Pizza Place",25
+1748,OH,44320,"Restaurant,Pizza Place",40
+1749,PA,15234,"Restaurant,Pizza Place",25
+1750,FL,33765,Pizza Place,25
+1751,TX,78212,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place,Pizza Place and Italian Restaurant Tobin Hill",25
+1752,NY,14202,Pizza Place,25
+1753,AZ,85022,"Pizza,Restaurant,Chain Restaurant,Pizza Place",25
+1754,IL,60613,Pizza Place,40
+1755,IL,60626,"Pizza,Restaurant,Pizza Place",25
+1756,IL,60614,"Pizza,Italian Restaurant,Restaurant,Italian,Pizza Place",55
+1757,WA,98116,"Pizza Place,Restaurants,Pizza Place Alki",40
+1758,CA,95401,"Pizza,Food and Beverage,Pizza Place,Restaurants",25
+1759,TX,78613,Pizza Place,25
+1760,IA,52404,"Pizza,Take Out Restaurants,Pizza Place,Restaurants",25
+1761,NC,27513,"Pizza,Pizza Place,Restaurants",25
+1762,TN,37738,Pizza Place,25
+1763,PA,19030,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",40
+1764,VA,20152,"Restaurant,Pizza Place,Pizza Place South Riding Market Square",25
+1765,FL,32825,"Pizza,Restaurant,Italian,Pizza Place",25
+1766,MI,48081,"Restaurant,Pizza Place",25
+1767,NY,10917,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1768,NY,12601,"Italian Restaurant,Pizza Place",25
+1769,NY,12561,Pizza Place,25
+1770,NY,10925,Pizza Place,25
+1771,NY,12601,Pizza Place,25
+1772,NY,10970,Pizza Place,25
+1773,NY,10036,"Pizza,Restaurant,Pizza Place",25
+1774,NY,11730,Pizza Place,25
+1775,WI,53144,"Bar,Bar & Grills,Pizza Place,Pizza Place and Bar,Restaurants",25
+1776,FL,33904,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place,Restaurants",40
+1777,CO,80903,"Restaurant,Pizza Place",25
+1778,IL,60657,"Pizza,Restaurant,Italian,Chain Restaurant,Pizza Place Lakeview,Pizza Place",40
+1779,IL,60613,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place,Restaurants",25
+1780,IL,60640,"Italian Restaurant,Pizza Place",25
+1781,AZ,85236,"Restaurant,Pizza Place",25
+1782,IL,60642,"Pizza,Restaurant,Pizza Place Fulton Market,Pizza Place",25
+1783,TN,37363,Pizza Place,25
+1784,AZ,85255,Pizza Place,25
+1785,NY,11375,"Pizza,Italian Restaurant,Restaurant,Pizza Place",25
+1786,MD,21401,"Pizza,Pizza Place,Restaurants,Italian Restaurants",25
+1787,IN,46016,"Restaurant,Pizza Place",25
+1788,MI,48375,Pizza Place,25
+1789,TX,77096,"Pizza,Italian Restaurant,Restaurant,Pizza Place",40
+1790,IN,46016,"Pizza,Pizza Place,Restaurants",25
+1791,NY,11789,Pizza Place,25
+1792,FL,34470,"Restaurant,Pizza Place",40
+1793,GA,30252,Pizza Place,25
+1794,MD,21784,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1795,FL,32958,"Italian Restaurant,Pizza Place",40
+1796,CA,92544,"Restaurant,Pizza Place",25
+1797,FL,32720,"Italian Restaurant,Pizza Place",40
+1798,IL,60402,Pizza Place,25
+1799,AZ,86001,"Restaurant,Pizza Place",25
+1800,MI,48038,Pizza Place,25
+1801,NY,10562,"Restaurant,Pizza Place",25
+1802,NY,14445,Pizza Place,25
+1803,NY,12464,"Restaurant,Pizza Place",25
+1804,CA,92399,Pizza Place,25
+1805,PA,17013,"Restaurant,Pizza Place",25
+1806,MI,49424,Pizza Place,25
+1807,TX,75070,"Pizza,Restaurant,Pizza Place,Restaurants",40
+1808,NY,11731,"Italian Restaurant,Pizza Place",25
+1809,CA,95351,Pizza Place,25
+1810,PA,19008,"Restaurant,Pizza Place",25
+1811,UT,84606,Pizza Place,25
+1812,CA,94560,"Restaurant,Pizza Place",40
+1813,GA,30013,Pizza Place,25
+1814,IL,60462,"Italian Restaurant,Pizza Place",40
+1815,NY,10573,"Italian Restaurant,Pizza Place",40
+1816,IL,60608,"Restaurant,Pizza Place",25
+1817,IL,60453,Pizza Place,25
+1818,PA,19040,Pizza Place,25
+1819,NY,10595,"Italian Restaurant,Pizza Place",40
+1820,PA,18018,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1821,WA,98597,Pizza Place,25
+1822,CA,92562,Pizza Place,25
+1823,NY,10034,"Pizza,Restaurant,Italian,Pizza Place",25
+1824,PA,17109,Pizza Place,25
+1825,TX,77584,"Italian Restaurant,Pizza Place",25
+1826,TX,77006,"Pizza,Restaurant,Pizza Restaurants,Pizza Place,Restaurants",25
+1827,MI,48185,"Pizza,Pizza Place,Restaurants",25
+1828,PA,18109,"Restaurant,Pizza Place and Sports Bar,Pizza Place,Sports Bar,Pizza Place and Sports Bar Eastside",25
+1829,GA,30014,Pizza Place,25
+1830,OH,44202,"Pizza Place,Restaurants",25
+1831,NY,10004,"Bar,Pizza Place",40
+1832,FL,32796,"Italian Restaurant,Pizza Place",25
+1833,NY,11231,Pizza Place,25
+1834,IN,46032,"Restaurant,Pizza Place",40
+1835,NY,11206,"Pizza,Restaurant,American,Pizza Place,Pizza Place East Williamsburg",40
+1836,TN,37919,"Pizza,Pizza Place",25
+1837,UT,84101,"Restaurant,Pizza Place",40
+1838,IN,47408,"Italian Restaurant,Pizza Place",25
+1839,VA,23454,Pizza Place,40
+1840,AZ,85282,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1841,NY,14617,"Restaurant,Pizza Place",25
+1842,NY,10461,"Pizza,Restaurant,Italian,Pizza Place",25
+1843,IN,46204,Pizza Place,40
+1844,UT,84102,"Restaurant,Pizza Place Central City,Pizza Place",25
+1845,UT,84106,"Pizza Place,Restaurants",40
+1846,OH,43082,"Pizza Place,Sports Bar",25
+1847,CA,92120,"Pizza,Restaurant,Pizza Place",25
+1848,FL,34746,Pizza Place,40
+1849,WA,98012,Pizza Place,25
+1850,MD,20707,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+1851,FL,33434,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1852,FL,33426,Pizza Place,25
+1853,VA,23455,Pizza Place,25
+1854,VA,23452,Pizza Place,25
+1855,CA,94526,"restaurant,Pizza Place",25
+1856,IA,50310,"Restaurant,Pizza Place,Pizza Place Beaverdale",40
+1857,FL,33626,"Italian Restaurant,Pizza Place and Italian Restaurant,Pizza Place",25
+1858,WI,53221,"Restaurant,Pizza Place",25
+1859,FL,32955,"Italian Restaurant,Pizza Place",25
+1860,MN,55102,Pizza Place,25
+1861,MN,55129,Pizza Place,25
+1862,NY,14226,"Pizza,American Restaurants,Pizza Place,Restaurants",25
+1863,IL,60201,Pizza Place,40
+1864,IL,60714,Pizza Place,25
+1865,WA,98684,Pizza Place,25
+1866,OR,97008,"Pizza Place,Pizza Place West Beaverton",25
+1867,OR,97202,"Brewery,Pizza Place and Brewery,Pizza Place,Pub,Pizza Place and Brewery Sellwood-Moreland",25
+1868,SC,29466,Pizza Place,25
+1869,TX,75204,"Pizza,Restaurant,Pizza Restaurants,Caterers,Pizza Place,Restaurants,Italian Restaurants",25
+1870,FL,32601,Pizza Place,25
+1871,NY,10458,Pizza Place,25
+1872,FL,33040,"Pizza Place,Restaurants",25
+1873,MD,20854,"Italian Restaurant,Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1874,FL,33021,Pizza Place,25
+1875,IL,60056,"Italian Restaurant,Pizza Place",25
+1876,GA,30341,"Pizza,Italian Restaurant,Restaurant,Pizza Place",40
+1877,MI,49316,"Pizza Place,Restaurant",40
+1878,AZ,85308,Pizza Place,40
+1879,AZ,85304,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+1880,GA,30313,"Lounge,Pizza Place,Restaurant",55
+1881,TX,75034,Pizza Place,25
+1882,PA,19003,"Pizza Place,Restaurant",25
+1883,PA,19003,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant",40
+1884,PA,19123,"Pizza Place,Restaurant,American,Italian,Pizza,Pizza Place Northern Liberties - Fishtown,Restaurants,Pizza Restaurants,Italian Restaurants",25
+1885,VA,23452,"Pizza Place,Restaurant",40
+1886,OH,44144,"Bar,Pizza Place,Diner,Restaurant,Bar, Pizza Place, and Diner",40
+1887,NY,10601,Pizza Place,25
+1888,NY,10022,"Pizza Place,Italian Restaurant,Restaurant,Italian,Pizza",40
+1889,VA,22312,Pizza Place,25
+1890,CO,80526,Pizza Place,25
+1891,IN,46220,"Italian Restaurant,Pizza Place,Restaurant,Italian Restaurant and Pizza Place,Italian Restaurant and Pizza Place Eastwood",40
+1892,NV,89117,Pizza Place,25
+1893,MD,21117,"Pizza Place,Restaurants",25
+1894,MI,48167,"Pizza Place,Bar,Pizza Place and Bar",40
+1895,NY,10504,"Italian Restaurant,Pizza Place",40
+1896,NY,10570,"Pizza Place,Italian Restaurant",25
+1897,NY,11208,"Pizza Place,Pizza Place City Line,retail",25
+1898,NY,10011,Pizza Place,25
+1899,NY,10019,"Pizza Place,Restaurant,Pizza",25
+1900,MI,48009,"Pizza Place,Restaurants",25
+1901,MI,48192,"Pizza Place,Restaurants",25
+1902,OH,45410,"Pizza Place,Restaurants,Sandwich Shops,Pasta,Pizza",25
+1903,IN,46220,"Restaurant,Pizza Place",25
+1904,IN,46224,"Restaurant,Pizza Place",25
+1905,IN,46033,"Restaurant,Pizza Place",25
+1906,CA,95833,"Restaurant,Pizza Place,Pizza Place South Natomas",25
+1907,MI,48084,"Restaurant,Pizza Place",25
+1908,SC,29301,"Restaurant,Pizza Place",25
+1909,OH,45236,"Restaurant,Pizza Place",25
+1910,MI,48341,"Pizza Place,Restaurant,Restaurants,Pizza",25
+1911,NY,11435,"Pizza Place,Restaurants,Italian Restaurants,Pizza,Pizza Place Jamaica",25
+1912,NY,11218,"Pizza Place,Restaurant,Pizza",25
+1913,NY,11001,"Pizza Place,Restaurant",25
+1914,MI,49636,"Pizza Place,Deli / Bodega,Pizza Place and Deli / Bodega",25
+1915,CA,95008,Pizza Place,40
+1916,CA,92130,Pizza Place,40
+1917,CA,94103,"Pizza Place,Wine Bar",25
+1918,CA,94103,"Pizza Place,Restaurant",25
+1919,NY,11215,Pizza Place,25
+1920,NY,11238,"Pizza Place,Italian Restaurant,Restaurant,Pizza",25
+1921,NY,10552,"Pizza Place,Pizza Place North Side",25
+1922,PA,19147,Pizza Place,40
+1923,CA,95240,Pizza Place,25
+1924,AZ,85209,"Pizza Place,Caterers,Restaurants,Italian Restaurants,Pizza",25
+1925,GA,30096,"Pizza Place,wich Place,Italian Restaurant,Pizza,Restaurants,Pizza Place, Sandwich Place, and Italian Restaurant",25
+1926,VA,20170,"Italian Restaurant,Pizza Place",40
+1927,PA,19038,"Pizza Place,Pizza,Caterers,Restaurants",25
+1928,PA,19460,"Pizza Place,Restaurant",25
+1929,FL,32839,"Pizza Place,Italian Restaurant",25
+1930,WA,98109,"Pizza Place,Restaurant",25
+1931,IA,52314,"Pizza Place,Catering,Restaurants",25
+1932,MN,55423,Pizza Place,40
+1933,VA,23294,Pizza Place,25
+1934,VA,23235,"Pizza Place,Restaurants",25
+1935,GA,30022,"Pizza Place,Pizza,Italian Restaurants,Restaurants",25
+1936,CA,91710,Pizza Place,25
+1937,MD,21244,Pizza Place,25
+1938,CA,92626,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant,Restaurants",25
+1939,CA,92708,"Pizza Place,Restaurants,Restaurant,Pizza,American restaurants",25
+1940,NY,10583,"Pizza Place,Restaurant",25
+1941,IA,50009,"Restaurants,Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1942,FL,32174,"Pizza,Italian Restaurants,Restaurants,Pizza Place",25
+1943,OH,44138,"Pizza Place,Restaurant,Pizza,Restaurants",25
+1944,MI,49117,"Pizza Place,Caterers,Restaurants,Pizza",25
+1945,PA,18938,Pizza Place,25
+1946,NJ,,"Pizza Place,Restaurants",25
+1947,OH,43055,"Pizza Place,Restaurant,Pizza Restaurant",25
+1948,FL,33012,"Italian Restaurant,Pizza Place",40
+1949,IN,46320,"Pizza Place,Italian Restaurant",25
+1950,IL,60506,Pizza Place,25
+1951,NY,11752,Pizza Place,25
+1952,TX,77356,"Pizza Place,Restaurants,Pizza,Take Out Restaurants",25
+1953,CA,96150,"Pizza Place,Restaurant,Pizza,Breakfast & Brunch",25
+1954,FL,33139,"Pizza Place,Restaurant,Pizza",40
+1955,GA,30144,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant,Restaurants",40
+1956,WA,98116,"Pizza Place,Bar",40
+1957,NC,27560,"Pizza Place,Italian Restaurant",25
+1958,CA,93065,Pizza Place,25
+1959,IL,60098,Pizza Place,25
+1960,NC,28270,"Restaurant,Pizza Place",25
+1961,PA,19121,"Pizza Place,American Restaurant",25
+1962,NC,28226,Pizza Place,25
+1963,IL,60451,"Pizza Place,Italian Restaurant",25
+1964,VA,23336,Pizza Place,25
+1965,AZ,85207,Pizza Place,25
+1966,PA,15139,Pizza Place,25
+1967,MI,48197,Pizza Place,25
+1968,IL,60062,Pizza Place,40
+1969,IL,60062,"Pizza Place,Restaurant",25
+1970,IL,60618,"Pizza Place,Italian Restaurant",25
+1971,IL,60647,"Pizza Place,Restaurant,Pizza",25
+1972,IL,60056,"Pizza Place,Italian Restaurant",25
+1973,FL,34711,"Italian Restaurant,Pizza Place",40
+1974,PA,19382,Pizza Place,25
+1975,PA,19001,"Pizza Place,Pizza Place Abington",25
+1976,PA,18901,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1977,PA,19454,"Pizza Place,Restaurant",25
+1978,CA,92840,Pizza Place,40
+1979,OH,44092,"Pizza Place,wich Place,Restaurant",25
+1980,CA,91701,"Pizza Place,Pizza,Italian Restaurants,Restaurants",25
+1981,TN,37405,Pizza Place,40
+1982,OR,97030,"Pizza Place,Bar",25
+1983,MD,20876,Pizza Place,25
+1984,FL,33016,"Pizza Place,Restaurant,Pizza",25
+1985,TX,77379,Pizza Place,25
+1986,FL,34771,Pizza Place,25
+1987,MI,49509,Pizza Place,25
+1988,FL,32084,"Pizza,Italian Restaurants,Restaurants,Pizza Place",25
+1989,IL,60126,"Pizza Place,Restaurant",25
+1990,GA,30040,"Pizza Place,Pizza,Restaurants,Restaurant",25
+1991,OR,97007,"Pizza Place,Bar,Pizza Place and Bar",25
+1992,MI,49660,"Pizza,Restaurants,Pizza Place,Restaurant,Catering",25
+1993,CA,90245,"Pizza Place,Restaurant",40
+1994,TX,75081,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant",25
+1995,CA,94070,Pizza Place,25
+1996,MI,49302,Pizza Place,25
+1997,PA,19104,"Pizza Place,Restaurant,Pizza,Pizza Place Powelton Village",25
+1998,PA,19460,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+1999,PA,19103,"Pizza Place,Pizza,Italian Restaurants,Restaurants,Restaurant",25
+2000,MO,65806,"Pizza Place,Pizza Place Downtown Springfield",40
+2001,WA,98406,Pizza Place,40
+2002,NY,13210,Pizza Place,25
+2003,SC,29205,"Pizza Place,Bar,Pizza Place and Bar",40
+2004,NC,28204,"Pizza Place,Wings Joint,Pizza Place and Wings Joint Elizabeth,Pizza Place and Wings Joint",40
+2005,CA,92025,"Restaurant,Pizza Place,Pizza",25
+2006,NY,11954,Pizza Place,25
+2007,WI,53715,"Pizza Place,Pizza,Caterers,Italian Restaurants,Restaurants",25
+2008,GA,30265,Pizza Place,25
+2009,NV,89128,Pizza Place,25
+2010,OH,43606,"Pizza Place,Pizza,Restaurants",40
+2011,FL,33813,Pizza Place,25
+2012,OH,45036,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+2013,CA,95928,"Pizza Place,Restaurant",40
+2014,CA,90028,"Pizza Place,restaurant",40
+2015,WA,98108,"Pizza Place,Pizza Place Georgetown",40
+2016,NY,12203,"Pizza Place,Italian Restaurant,Pizza",25
+2017,MN,55404,Pizza Place,40
+2018,CA,90024,"Pizza Place,Pizza,Restaurants",40
+2019,NY,10065,"Pizza Place,Restaurant,Pizza,Pizza Place Upper East Side",25
+2020,NY,10018,"Pizza Place,Restaurant,Pizza",25
+2021,CA,94109,"Pizza Place,Restaurant",25
+2022,TX,75150,"Italian Restaurant,Pizza Place,Restaurant,Italian Restaurant and Pizza Place",40
+2023,FL,33433,Pizza Place,25
+2024,TX,75201,"Italian Restaurant,Pizza Place,Restaurant,Pizza,Restaurants,Italian Restaurant and Pizza Place,Pizza Restaurants,Italian Restaurants",25
+2025,GA,30030,"Pizza Place,American Restaurant,Pizza Place and American Restaurant Oakhurst,Pizza Place and American Restaurant",40
+2026,OK,74135,"Pizza Place,Restaurant",25
+2027,CA,94609,"Pizza Place,Bar,Pub",25
+2028,CA,91320,Pizza Place,25
+2029,IL,60423,"American Restaurant,Pizza Place,American Restaurant and Pizza Place",40
+2030,CA,94568,Pizza Place,25
+2031,MI,48212,Pizza Place,25
+2032,LA,70115,"Pizza Place,Pizza Place Freret,Restaurants,restaurant,Italian Restaurants,Pizza",40
+2033,MI,48201,Pizza Place,25
+2034,CO,80026,"Italian Restaurant,Pizza Place",40
+2035,TX,75206,Pizza Place,25
+2036,OK,73139,Pizza Place,25
+2037,NY,10036,"Pizza Place,Restaurant,Pizza",25
+2038,FL,33755,"Pizza Place,Italian Restaurant,Restaurant,Pizza Place and Italian Restaurant",25
+2039,FL,33019,"Pizza Place,American Restaurant,Pizza Place and American Restaurant",40
+2040,GA,30022,Pizza Place,40
+2041,NY,11105,"Pizza Place,Restaurant,Italian,Pizza Place Ditmars",25
+2042,MI,48084,"Pizza Place,Restaurant",25
+2043,TX,77004,"Pizza Place,Restaurant,Pizza,Pizza Place Greater Third Ward",25
+2044,TX,76132,"Sports Bar,Pizza Place,Sports Bar and Pizza Place City View,Sports Bar and Pizza Place",40
+2045,OH,43235,Pizza Place,25
+2046,FL,32922,"Pizza Place,Italian Restaurant",25
+2047,IL,60120,Pizza Place,25
+2048,IL,60053,Pizza Place,40
+2049,TX,77070,"Pizza Place,Restaurants",25
+2050,IN,46142,"Pizza Place,Pizza,Restaurants,Italian Restaurants",25
+2051,FL,33578,Pizza Place,25
+2052,WA,98072,"Pizza Place,Restaurant",25
+2053,NY,11375,"Pizza Place,Restaurant,Italian",25
+2054,MI,48823,Pizza Place,25
+2055,IN,46628,"Italian Restaurant,Pizza Place,Restaurant,Italian Restaurant and Pizza Place",40
+2056,IL,60632,"Pizza Place,Pizza Place Brighton Park",25
+2057,NC,27302,"Deli / Bodega,Pizza Place",25
+2058,FL,33781,Pizza Place,25
+2059,ND,58203,"Restaurant,Pizza Place",25
+2060,GA,30019,"Restaurant,Pizza Place",25
+2061,IN,46250,"Restaurant,Pizza Place",40
+2062,NC,27609,"Restaurant,Pizza Place,Restaurants",25
+2063,IL,60660,"Pizza Place,Pizza Place Edgewater,Caterers,Restaurants,Italian Restaurants,Pizza",25
+2064,IL,60607,Pizza Place,25
+2065,IL,60608,Pizza Place,25
+2066,IL,60617,"Pizza Place,Caterers,Restaurants,Pizza Place Grand Crossing,Pizza Place Avalon Park,Pizza",25
+2067,NY,10701,"Italian Restaurant,Pizza Place,Restaurant,Italian,Pizza",40
+2068,IL,60402,"Pizza,Restaurants,Take Out Restaurants,Pizza Place",25
+2069,FL,32256,"Pizza,Restaurants,Pizza Place",25
+2070,NY,14450,"Pizza Place,Pizza,Restaurants",25
+2071,OH,43201,"Restaurant,Pizza Place,Pizza,Food Delivery,Restaurants,Sandwich Place",40
+2072,MD,21001,"Italian Restaurant,Pizza Place",40
+2073,NY,14216,Pizza Place,25
+2074,IL,60177,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2075,NY,11358,"Pizza Place,Restaurant,Pizza",25
+2076,PA,19104,"Pizza Place,Restaurant,American,Pizza",25
+2077,FL,33483,"Italian Restaurant,Pizza Place,Pizza,Restaurants",40
+2078,NY,11542,"Pizza Place,Italian Restaurant,Restaurant,Pizza Place and Italian Restaurant",40
+2079,SC,29681,"Pizza Place,Pizza,Restaurants",25
+2080,FL,32303,"American Restaurant,Pizza Place",40
+2081,WA,99301,Pizza Place,25
+2082,SC,29072,"Pizza Place,Lexington Restaurants",25
+2083,IL,60187,Pizza Place,25
+2084,OK,74135,Pizza Place,40
+2085,OH,43725,Pizza Place,25
+2086,WA,98908,"Pizza Place,American",25
+2087,CA,95747,"Pizza Place,Restaurant",25
+2088,GA,30907,"Pizza Place,Pizza,personal services,Restaurant",25
+2089,PA,16509,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2090,TN,37760,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+2091,WV,25302,Pizza Place,25
+2092,NC,27523,"Pizza Place,Restaurants,Pizza",25
+2093,GA,30180,Pizza Place,25
+2094,GA,30068,"Pizza Place,Restaurant",40
+2095,TX,75067,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant",25
+2096,FL,33021,Pizza Place,25
+2097,GA,30265,Pizza Place,25
+2098,FL,33629,Pizza Place,25
+2099,IN,46254,"Pizza Place,Restaurants,Pizza Place Eagledale",25
+2100,MO,63109,Pizza Place,25
+2101,PA,19128,Pizza Place,25
+2102,AZ,85022,"Pizza Place,Restaurants",40
+2103,CO,80129,"Pizza Place,Zoo,Bar",25
+2104,PA,15217,Pizza Place,25
+2105,AZ,85028,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2106,TX,78504,Pizza Place,25
+2107,AZ,85202,"Pizza Place,Mexican Restaurant",25
+2108,CO,80222,Pizza Place,25
+2109,IN,46237,Pizza Place,25
+2110,NE,68132,"Pizza Place,Bar,Sports Bar,Restaurants,Pizza,Ne\\pizza Place",40
+2111,IL,60031,"Pizza Place,Coffee Shop",25
+2112,KY,40324,Pizza Place,25
+2113,MO,65807,Pizza Place,25
+2114,TN,37040,Pizza Place,25
+2115,AR,72019,"Pizza Place,Restaurants,Pizza",25
+2116,FL,32128,"Pizza Place,Restaurant",25
+2117,GA,30132,Pizza Place,40
+2118,FL,32904,"Pizza Place,Pizza,Take Out Restaurants,Restaurants",25
+2119,OH,43606,"Pizza Place,Restaurants,Pizza",25
+2120,IN,46176,"Pizza Place,Lounge,Restaurant",25
+2121,CA,92683,"Pizza Place,Italian Restaurant",25
+2122,NY,10710,"Pizza Place,Restaurant,Pizza",25
+2123,LA,70508,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+2124,SC,29907,"Pizza Place,Italian Restaurants,Pizza,Restaurants",25
+2125,NV,89501,"Pizza Place,Pizza",25
+2126,IN,46615,"Pizza Place,Pizza,Take Out Restaurants,Restaurants",25
+2127,MN,55118,"Pizza Place,Pizza,Caterers,Restaurants",40
+2128,OR,97301,"Pizza Place,Restaurants,Pizza,Restaurant",25
+2129,TX,78701,"Pizza Place,Restaurants",25
+2130,WI,54703,"Pizza Place,Restaurants,Pizza Restaurants",25
+2131,NY,10473,"Pizza Place,Locksmiths",40
+2132,FL,33830,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant Downtown Bartow,Pizza Place and Italian Restaurant",25
+2133,MI,48201,Pizza Place,25
+2134,TX,77380,"Pizza Place,Pizza Place Town Center",40
+2135,MT,59801,"Pizza Place,Restaurants",25
+2136,CA,92648,"Pizza Place,Restaurant,Italian,Pizza",40
+2137,OR,97402,"Restaurant,Pizza Place,Pizza",25
+2138,AR,72901,"Pizza Place,Bar,Pizza Place and Bar",25
+2139,CA,93230,Pizza Place,25
+2140,TX,78681,"Pizza Place,Pizza,Restaurants",25
+2141,TX,75024,Pizza Place,25
+2142,TN,37072,"Pizza Place,Restaurants,Restaurant",25
+2143,MN,55904,"Pizza Place,Restaurant",25
+2144,IN,46219,Pizza Place,25
+2145,CA,95765,"Italian Restaurant,Pizza Place",25
+2146,AZ,85224,Pizza Place,25
+2147,SC,29615,Pizza Place,40
+2148,FL,34769,Pizza Place,25
+2149,FL,32801,"Pizza Place,Italian Restaurant,Restaurant,Italian,Pizza",40
+2150,OH,45056,"Pizza Place,Restaurant",25
+2151,MO,65401,"Pizza Place,Restaurant",25
+2152,CA,93401,Pizza Place,25
+2153,TN,37086,"Pizza Place,Pizza,Italian Restaurants,Restaurants",25
+2154,MI,48204,Pizza Place,25
+2155,MI,48307,"Pizza Place,Pizza Place Downtown Rochester",25
+2156,GA,31021,"Pizza Place,Restaurant",25
+2157,ID,83301,Pizza Place,25
+2158,KY,40202,Pizza Place,25
+2159,IL,60645,"Pizza Place,Pub",40
+2160,TX,78757,Pizza Place,40
+2161,TX,78660,Pizza Place,25
+2162,NY,10703,Pizza Place,25
+2163,IN,47546,"Pizza Place,Restaurant",25
+2164,IL,60622,"Pizza Place,Pizza,Restaurants,Restaurant,Pizza Place West Town",25
+2165,IL,61201,Pizza Place,25
+2166,NY,13027,"Sports Bar,Pizza Place,Sports Bar and Pizza Place",25
+2167,TX,78216,Pizza Place,25
+2168,TX,78741,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+2169,IL,62294,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant,Restaurant",25
+2170,FL,33823,Pizza Place,25
+2171,AZ,85306,"Pizza Place,Restaurant,Pizza,Chain Restaurant",40
+2172,AZ,85743,Pizza Place,25
+2173,WV,25401,Pizza Place,25
+2174,OK,74012,"Pizza Place,Restaurant",25
+2175,NY,10801,"Pizza Place,Pizza Place Downtown New Rochelle",25
+2176,TX,77459,Pizza Place,25
+2177,CA,90034,"Pizza Place,Take Out Restaurants,Pizza Place Palms,Restaurants,Pizza",25
+2178,AZ,85719,"Pizza,Restaurants,Pizza Place",40
+2179,TN,37203,"Pizza Place,Restaurants,Italian Restaurants,Pizza,Restaurant",25
+2180,OH,44102,Pizza Place,25
+2181,OR,97045,"Pizza Place,Pizza,Restaurants",25
+2182,CA,92075,"Pizza Place,Restaurant",25
+2183,CA,93108-2737,"Restaurant,Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant",25
+2184,CO,80218,Pizza Place,40
+2185,MO,65251,Pizza Place,25
+2186,CA,95037,"Pizza Place,Restaurant",25
+2187,KY,40059,Pizza Place,40
+2188,KS,66606,"Pizza Place,Restaurant",25
+2189,AR,72113,"Pizza Place,Restaurant",25
+2190,TX,75670,"Pizza Place,Pizza,Italian Restaurants,Restaurants,Restaurant",25
+2191,NY,14206,"Pizza Place,bars & clubs",25
+2192,NY,14221,"Pizza Place,Pizza,Restaurants",25
+2193,OK,73104,"Pizza Place,Caterers,Restaurants,Pizza Place Deep Deuce",40
+2194,PA,15221,"Pizza Place,Bar,Pizza Place and Bar,Pizza Place and Bar Braddock Hills - Forest Hills",25
+2195,NY,10039,"Pizza Place,Restaurant,Pizza",25
+2196,KY,42003,Pizza Place,25
+2197,NY,11757,Pizza Place,25
+2198,CA,94002,Pizza Place,25
+2199,NV,89521,"Pizza Place,Pizza,Restaurants",25
+2200,IN,46227,Pizza Place,25
+2201,MI,49417,Pizza Place,25
+2202,TX,78751,"Pizza Place,Restaurant",25
+2203,CO,80013,"Pizza Place,Restaurant,Pizza,Chain Restaurant",25
+2204,OH,44144,Pizza Place,25
+2205,LA,71241,Pizza Place,25
+2206,KS,66618,"Pizza Place,Restaurant",25
+2207,AZ,85382,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",55
+2208,OR,97401,Pizza Place,55
+2209,MI,48038,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+2210,TX,78745,"Pizza Place,Restaurant,Pizza",25
+2211,OK,73105,Pizza Place,25
+2212,FL,32669,"Pizza Place,Restaurant",25
+2213,MI,48035,"Pizza Place,Restaurant",40
+2214,MI,48329,Pizza Place,25
+2215,OH,43402,Pizza Place,25
+2216,NY,10016,"Pizza Place,Restaurant,Pizza",25
+2217,FL,32615,Pizza Place,25
+2218,IL,62236,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2219,OH,43062,Pizza Place,25
+2220,AZ,85225,"Pizza Place,Caterers,Restaurants,Pizza",40
+2221,TX,75022,Pizza Place,25
+2222,VA,23225,"Pizza Place,Carry-out food,Pizza,Restaurants",25
+2223,IN,46619,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",25
+2224,VA,24179,Pizza Place,25
+2225,NY,10016,"Pizza Place,Restaurants",25
+2226,OR,97055,Pizza Place,25
+2227,OH,44333,Pizza Place,25
+2228,IN,46755,"Pizza Place,Kendallville Restaurants",25
+2229,TX,79412,Pizza Place,25
+2230,OH,45068,Pizza Place,25
+2231,CA,92336,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2232,NY,14606,Pizza Place,25
+2233,MD,21202,"Pizza Place,Pizza Place Mid-Town Belvedere",25
+2234,TX,77030,"Pizza Place,Restaurant,Pizza,Restaurants,Pizza Restaurants",25
+2235,NY,10039,"Pizza Place,Restaurant,Fast Food,Pizza,Restaurants",25
+2236,KY,41042,"Pizza Place,American Restaurants,Restaurants,Pizza",25
+2237,NM,88101,Pizza Place,25
+2238,NY,13440,Pizza Place,25
+2239,CA,92284,Pizza Place,25
+2240,GA,30248,Pizza Place,25
+2241,MD,21211,"Pizza Place,Catering,Restaurants,Sandwich Shops,Pizza",25
+2242,PA,16602,"Pizza Place,Italian Restaurant,Pizza Place and Italian Restaurant",25
+2243,MI,48038,Pizza Place,25
+2244,WA,98019,Pizza Place,25
+2245,NC,28659,Pizza Place,25
+2246,FL,32608,"Pizza Place,Pizza,Italian Restaurants,Restaurants",25
+2247,VA,23220,"Restaurants,Pizza Place The Fan,Pizza Place",40
+2248,OR,97402,Pizza Place,25
+2249,NY,11208,Pizza Place,25
+2250,IL,60611,"Pizza Place,Restaurant",25
+2251,IA,52101,"Pizza Place,Restaurant",25
+2252,MD,21787,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",40
+2253,PA,19134,Pizza Place,25
+2254,TX,75071,"Pizza Place,Restaurants,Pizza,Take Out Restaurants",25
+2255,VA,23824,Pizza Place,25
+2256,OR,97204,"Pizza Place,Caterers,Restaurants,Pizza",25
+2257,FL,34609,"Pizza Place,Pizza,Restaurants,Italian Restaurants",25
+2258,TX,75022,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+2259,FL,32569,Pizza Place,25
+2260,TX,77085,"Pizza Place,Pizza Delivery,Take Out,Pizza Restaurants,Pizza Place Southwest Houston",25
+2261,TN,37643,Pizza Place,25
+2262,PA,18073,"Pizza Place,Bar,Pizza Place and Bar",25
+2263,IL,60714,Pizza Place,25
+2264,NY,10594,Pizza Place,25
+2265,NY,12571,Pizza Place,25
+2266,NV,89142,Pizza Place,25
+2267,VA,23112,"Pizza Place,Restaurants",25
+2268,IL,60473,Pizza Place,25
+2269,IL,60506,Pizza Place,25
+2270,PA,18512,"Pizza Place,Restaurants",25
+2271,OH,45044,"Pizza,Restaurants,Pizza Place",25
+2272,OH,44113,"Italian Restaurant,Pizza Place,Pizza Place and Italian Restaurant,Pizza Place and Italian Restaurant Downtown Cleveland",40
+2273,TX,77039,"Pizza Place,Restaurants,Pizza Delivery,Take Out,Pizza Restaurants",25
+2274,AK,99645,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",25
+2275,TX,77057,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place Great Uptown,Italian Restaurant and Pizza Place",40
+2276,NY,10075,Pizza Place,25
+2277,AZ,85308,"Pizza Place,Brewery,American Restaurant,Restaurant,Pizza",40
+2278,WA,98373,"Pizza Place,Burger Joint,Pizza Place and Burger Joint",25
+2279,NC,27587,"Italian Restaurant,Pizza Place,Italian Restaurant and Pizza Place",25
+2280,NY,10570,"Pizza Place,Restaurant",25
+2281,NY,14206,Pizza Place,25
+2282,IL,60174,"Pizza Place,Restaurants",25
+2283,NV,89128,"Pizza Place,Restaurant,Fast Food,Pizza",25

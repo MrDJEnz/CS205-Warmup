@@ -65,6 +65,8 @@ def main():
             else:
                 # listen for sql input
                 command = myinput
+
+                # pass user input
                 parse_english(command)
 
             # print(myinput)
@@ -80,6 +82,11 @@ def main():
 def help():
     print("help screen ... example command")
     print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
+
+    print("SONG LENGTH") ## NEED TO UPDATE TO 'pizza' syntax 
+    print("SONG ARTIST")
+    print("SONG GENRE")
+    print("ARTIST ...")
 
 
 def convert():
@@ -131,7 +138,7 @@ def printdb():
     connection.commit()
 
 
-
+# test user command syntax
 def parse_english(command):
     # command = "SELECT TEMPORARY_COLOUMN"
     # print(command)
@@ -142,29 +149,49 @@ def parse_english(command):
     varlisttwo = []
     varlisttwo.append("genre")
     varlisttwo.append("bpm")
+    
+# ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #
+    #checking if user input contains any (valid) strings
+    #split command by spaces and store in list
+    commandAlt = re.sub("[^\w]", " ", command).split()
 
-    # song senorita genre "canadian pop"
-    if command == "song Senorita genre \"canadian pop\"":
-        print(command)
-        pathDB = "top50.db"
-        connection = connection_to_db(pathDB)
+    #iterate through list of user words .. check for invalid input
+    for i in range(len(commandAlt)):
+        if (commandAlt[i] != "VALID1") and (commandAlt[i] != "VALID2") and (commandAlt[i] != "VALID3"):
+            print(commandAlt[i] + " is not a valid command")
 
-        cursor = connection.cursor()
-        text = command.split(" ")
-        cursor.execute("SELECT * FROM 'MyTable' WHERE Track == 'Senorita' LIMIT 0,30")
-        row = cursor.fetchone()
-        while row is not None:
-            id = row[0]
-            rank = row[1]
-            trackname = row[2]
-            artist = row[3]
-            genre = row[4]
-            bpm = row[5]
-            print("id: " + str(id) + "    rank: " + str(rank) + "    trackname: " + str(trackname) +
-                  "    Artist: " + str(artist) + "    Genre: " + str(genre) + "    BPM: " + str(bpm))
-            row = cursor.fetchone()
-        connection.commit()
-        connection.close()
+    ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
+    ##commandLinked = " ".join(commandAlt)
+        
+    #print(command)
+    #print(commandAlt)
+    #print(commandLinked)
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+
+    
+##    # song senorita genre "canadian pop" EXAMPLE
+##    if command == "song Senorita genre \"canadian pop\"":
+##        print(command)
+##        pathDB = "top50.db"
+##        connection = connection_to_db(pathDB)
+##
+##        cursor = connection.cursor()
+##        text = command.split(" ")
+##        cursor.execute("SELECT * FROM 'MyTable' WHERE Track == 'Senorita' LIMIT 0,30")
+##        row = cursor.fetchone()
+##        while row is not None:
+##            id = row[0]
+##            rank = row[1]
+##            trackname = row[2]
+##            artist = row[3]
+##            genre = row[4]
+##            bpm = row[5]
+##            print("id: " + str(id) + "    rank: " + str(rank) + "    trackname: " + str(trackname) +
+##                  "    Artist: " + str(artist) + "    Genre: " + str(genre) + "    BPM: " + str(bpm))
+##            row = cursor.fetchone()
+##        connection.commit()
+##        connection.close()
 
 
     # execute sql statement

@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 import os.path
 from os import path
-
+import re
 def convert():
 
     if path.exists("top50.db"):
@@ -54,6 +54,24 @@ def basic_english_to_sql():
     loop = True
     while loop:
         usrinput = input("\nPlease enter information for pizza: ")
+
+        # ~~~~THIS PORTION SPLITS USER INPUT INTO LISTS OF WORDS.. ALSO CHECKS FOR INVALID ~~~#
+        #split up string into 
+        usrinputAlt = re.sub("[^\w]", " ", usrinput).split()
+
+        #iterate through list of user words .. check for invalid input
+        for i in range(len(usrinputAlt)):
+            if (usrinputAlt[i] != "VALID1") and (usrinputAlt[i] != "VALID2") and (usrinputAlt[i] != "VALID3"):
+                print(usrinputAlt[i] + " is not a valid command")
+                
+        #OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
+        usrInputLinked = " ".join(usrinputAlt)
+
+        print(usrinput)
+        print(usrinputAlt)
+        print(usrInputLinked)
+        # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
         if usrinput == "help":
             print("\nOptions for user:")
             print("1) Type ' ____ 'for ____.")
@@ -71,7 +89,7 @@ def basic_english_to_sql():
             print("Quitting the program :)")
             loop = False
         else:
-            print("invalid message please type help for help")
+            print(usrinput + " is invalid syntax. Please type 'help' for more info.")
 
 
 basic_english_to_sql()

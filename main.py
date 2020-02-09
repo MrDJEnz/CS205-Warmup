@@ -124,7 +124,6 @@ def convert():
 
       return 
 
-        print("Database successfully created.")
 
 # Connection to the database
 def connection_to_db(db_file):

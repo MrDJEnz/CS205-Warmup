@@ -199,13 +199,13 @@ def printdb():
 def parse_english(command):
     # command = "SELECT TEMPORARY_COLOUMN"
     # print(command)
-    varlistone = []
-    varlistone.append("song")
-    varlistone.append("artist")
-
-    varlisttwo = []
-    varlisttwo.append("genre")
-    varlisttwo.append("bpm")
+##    varlistone = []
+##    varlistone.append("song")
+##    varlistone.append("artist")
+##
+##    varlisttwo = []
+##    varlisttwo.append("genre")
+##    varlisttwo.append("bpm")
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #
     #checking if user input contains any (valid) strings
@@ -216,6 +216,9 @@ def parse_english(command):
     for i in range(len(commandAlt)):
         if (commandAlt[i] != "VALID1") and (commandAlt[i] != "VALID2") and (commandAlt[i] != "VALID3"):
             print(commandAlt[i] + " is not a valid command")
+        else:
+            print("Sending command: " + commandAlt[i], "to database.")
+            
 
     ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
     ##commandLinked = " ".join(commandAlt)
@@ -224,37 +227,5 @@ def parse_english(command):
     #print(commandAlt)
     #print(commandLinked)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-
-
-    
-##    # song senorita genre "canadian pop" EXAMPLE
-##    if command == "song Senorita genre \"canadian pop\"":
-##        print(command)
-##        pathDB = "top50.db"
-##        connection = connection_to_db(pathDB)
-##
-##        cursor = connection.cursor()
-##        text = command.split(" ")
-##        cursor.execute("SELECT * FROM 'MyTable' WHERE Track == 'Senorita' LIMIT 0,30")
-##        row = cursor.fetchone()
-##        while row is not None:
-##            id = row[0]
-##            rank = row[1]
-##            trackname = row[2]
-##            artist = row[3]
-##            genre = row[4]
-##            bpm = row[5]
-##            print("id: " + str(id) + "    rank: " + str(rank) + "    trackname: " + str(trackname) +
-##                  "    Artist: " + str(artist) + "    Genre: " + str(genre) + "    BPM: " + str(bpm))
-##            row = cursor.fetchone()
-##        connection.commit()
-##        connection.close()
-
-
-    # execute sql statement
-    # pointer.execute(command)
-
-    ##saves changes to database
-    # connection.commit()
             
 main()

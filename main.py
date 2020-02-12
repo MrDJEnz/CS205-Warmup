@@ -7,6 +7,7 @@ import pandas as pd
 import os.path
 from os import path
 import re
+validCommands = ["VALID1", "VALID2", "VALID3", "VALID4", "VALID5"]
 
 def main():
     # initialize database & parser
@@ -17,11 +18,6 @@ def main():
     #
     # #creates "point of command"
     # pointer = connection.cursor()
-
-    #
-    
-    
-    
     
     while(myinput != "quit"):
         try:
@@ -50,9 +46,6 @@ def main():
             # print(myinput)
         except (RuntimeError):
             print("palceholder error")
-        #except (sqlite3.OperationalError):
-        #    print("SQL Syntax Error")
-
 
         
 
@@ -213,19 +206,21 @@ def parse_english(command):
     commandAlt = re.sub("[^\w]", " ", command).split()
 
     #iterate through list of user words .. check for invalid input
-    for i in range(len(commandAlt)):
-        if (commandAlt[i] != "VALID1") and (commandAlt[i] != "VALID2") and (commandAlt[i] != "VALID3"):
-            print(commandAlt[i] + " is not a valid command")
-        else:
-            print("Sending command: " + commandAlt[i], "to database.")
+    #for i in range(len(commandAlt)):
+##        if (commandAlt[i] != "VALID1") and (commandAlt[i] != "VALID2") and (commandAlt[i] != "VALID3"):
+##            print(commandAlt[i] + " is not a valid command")
+##        else:
+##            print("Sending command: " + commandAlt[i], "to database.")
+    
+    if (set(commandAlt) - set(validCommands)):
+        print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
+    else:
+        print("Sending command: " + str(commandAlt), "to database.")
             
 
     ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
     ##commandLinked = " ".join(commandAlt)
         
-    #print(command)
-    #print(commandAlt)
-    #print(commandLinked)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
             
 main()

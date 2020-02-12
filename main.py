@@ -149,8 +149,6 @@ def printdb():
 
       convert()
        
-
-
     # Creates Path variable
     pathDB = "Pizza.db"
 
@@ -187,18 +185,9 @@ def printdb():
     connection.close()
 
 
-
 # test user command syntax
 def parse_english(command):
     # command = "SELECT TEMPORARY_COLOUMN"
-    # print(command)
-##    varlistone = []
-##    varlistone.append("song")
-##    varlistone.append("artist")
-##
-##    varlisttwo = []
-##    varlisttwo.append("genre")
-##    varlisttwo.append("bpm")
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #
     #checking if user input contains any (valid) strings
@@ -211,15 +200,16 @@ def parse_english(command):
 ##            print(commandAlt[i] + " is not a valid command")
 ##        else:
 ##            print("Sending command: " + commandAlt[i], "to database.")
+
+    ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
+    ##commandLinked = " ".join(commandAlt)
     
+# ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
+    # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     if (set(commandAlt) - set(validCommands)):
         print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
     else:
         print("Sending command: " + str(commandAlt), "to database.")
-            
-
-    ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
-    ##commandLinked = " ".join(commandAlt)
         
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
             

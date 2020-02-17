@@ -208,7 +208,7 @@ def parse_english(command):
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
 
-    print(commandAlt)
+    # print(commandAlt)
 
     commandDB = []
     commandUsr = []
@@ -224,16 +224,18 @@ def parse_english(command):
     #
     # print("Usr commands")
     # print(commandUsr)
-
-    sql_lookup_state(commandDB, commandUsr, commandAlt)
+    if len(commandDB) == 0 :
+        print("Incorrect Parse please type 'help' for more information...")
+    else:
+        sql_lookup_state(commandDB, commandUsr, commandAlt)
     # Take the command and convert to SQL parse
 
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
-    if (set(commandAlt) - set(validCommands)):
-        print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
-    else:
-        print("Sending command: " + str(commandAlt), "to database.")
+    # if (set(commandAlt) - set(validCommands)):
+    #     print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
+    # else:
+    #     print("Sending command: " + str(commandAlt), "to database.")
         
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 

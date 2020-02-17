@@ -7,6 +7,7 @@ import pandas as pd
 import os.path
 from os import path
 import re
+import shlex
 validCommands = ["State", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
 
 def main():
@@ -192,7 +193,8 @@ def parse_english(command):
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #
     #checking if user input contains any (valid) strings
     #split command by spaces and store in list
-    commandAlt = re.sub("[^\w]", " ", command).split()
+    #commandAlt = re.sub("[^\w]", " ", command).split()
+    commandAlt = shlex.split(command)
 
     #iterate through list of user words .. check for invalid input
     #for i in range(len(commandAlt)):
@@ -245,10 +247,25 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     c = conn.cursor()
     list_of_results = []
 
-    for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +
-                         " FROM " + tables[0] + " AS prim " +
-                         " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-                         " WHERE prim." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+    table1 = ["State", "PostalCode", "Categories", "PriceRangeMax"]
+    table2 = ["City", "Name", "Address", "Latitude", "Longitude", "StateCode"]
+
+    if str(list_unique_vars_db[0]) in table2:
+        variable = "snd."
+    elif str(list_unique_vars_db[0]) in table1:
+        variable = "prim."
+
+    if str(list_unique_vars_db[1]) in table2:
+        variable1 = "snd."
+    elif str(list_unique_vars_db[1]) in table1:
+        variable1 = "prim."
+
+
+    for row in c.execute(
+            "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
+            " FROM " + tables[0] + " AS prim " +
+            " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+            " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
 
         if row[0] not in list_of_results:
             list_of_results.append(row[0])
@@ -257,5 +274,36 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
         if (len(list_of_results) == 0):
             print("No Results Found")
         print(list_of_results[i])
+    # if  list_unique_vars_db[1] == "State":
+    #
+    #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +
+    #                          " FROM " + tables[0] + " AS prim " +
+    #                          " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+    #                          " WHERE prim." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+    #
+    #         if row[0] not in list_of_results:
+    #             list_of_results.append(row[0])
+    #
+    #     for i in range(len(list_of_results)):
+    #         if (len(list_of_results) == 0):
+    #             print("No Results Found")
+    #         print(list_of_results[i])
+    #
+    # elif list_unique_vars_db[1] == "City":
+    #     for row in c.execute(
+    #         "SELECT " + "snd." + str(list_unique_vars_db[0]) + ", " + "prim." + str(list_unique_vars_db[1]) +
+    #         " FROM " + tables[0] + " AS prim " +
+    #         " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+    #         " WHERE snd." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+    #
+    #         if row[0] not in list_of_results:
+    #             list_of_results.append(row[0])
+    #
+    #     for i in range(len(list_of_results)):
+    #         if (len(list_of_results) == 0):
+    #             print("No Results Found")
+    #         print(list_of_results[i])
+
+
             
 main()

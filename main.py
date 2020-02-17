@@ -207,7 +207,23 @@ def parse_english(command):
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
 
     print(commandAlt)
-    sql_lookup(commandAlt)
+
+    commandDB = []
+    commandUsr = []
+
+    for i in commandAlt:
+        if i in validCommands:
+            commandDB.append(i)
+        else:
+            commandUsr.append(i)
+
+    # print("Database Commands")
+    # print(commandDB)
+    #
+    # print("Usr commands")
+    # print(commandUsr)
+
+    sql_lookup_state(commandDB, commandUsr)
     # Take the command and convert to SQL parse
 
 
@@ -220,14 +236,26 @@ def parse_english(command):
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 
 
-def sql_lookup(command):
-    list_unique_vars = command
 
-    print("SELECT " + "*" + " FROM " + "PizzaPrimary" + " WHERE " + str(list_unique_vars[0]) + "=" + str(list_unique_vars[1]))
+def sql_lookup_state(commandDB, commandUsr):
+    list_unique_vars_db = commandDB
+    list_unique_vars_usr = commandUsr
+    tables = ["PizzaPrimary", "PizzaSecondary"]
     conn = connection_to_db("Pizza.db")
     c = conn.cursor()
-    t = (list_unique_vars[1],)
-    for row in c.execute("SELECT " + "*" + " FROM " + "PizzaPrimary" + " WHERE " + str(list_unique_vars[0]) + "=?", t):
-        print(row)
+    list_of_results = []
+
+    for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +
+                         " FROM " + tables[0] + " AS prim " +
+                         " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+                         " WHERE prim." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+
+        if row[0] not in list_of_results:
+            list_of_results.append(row[0])
+
+    for i in range(len(list_of_results)):
+        if (len(list_of_results) == 0):
+            print("No Results Found")
+        print(list_of_results[i])
             
 main()

@@ -223,7 +223,7 @@ def parse_english(command):
     # print("Usr commands")
     # print(commandUsr)
 
-    sql_lookup_state(commandDB, commandUsr)
+    sql_lookup_state(commandDB, commandUsr, commandAlt)
     # Take the command and convert to SQL parse
 
 
@@ -237,7 +237,7 @@ def parse_english(command):
 
 
 
-def sql_lookup_state(commandDB, commandUsr):
+def sql_lookup_state(commandDB, commandUsr, commandTotal):
     list_unique_vars_db = commandDB
     list_unique_vars_usr = commandUsr
     tables = ["PizzaPrimary", "PizzaSecondary"]

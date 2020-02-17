@@ -242,6 +242,8 @@ def parse_english(command):
 
 
 def sql_lookup_state(commandDB, commandUsr, commandTotal):
+    
+  try:
     list_unique_vars_db = commandDB
     list_unique_vars_usr = commandUsr
     tables = ["PizzaPrimary", "PizzaSecondary"]
@@ -298,6 +300,8 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
                 print("No Results Found")
             print(list_of_results[i])
 
+  except:
+        print("That is not an accepted command")
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

@@ -9,6 +9,9 @@ from os import path
 import re
 validCommands = ["State", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
 
+##import csv
+##validInputs = list(csv.reader(open("PizzaNotPrim.csv")))
+
 def main():
     # initialize database & parser
     myinput = ""
@@ -47,7 +50,6 @@ def main():
         except (RuntimeError):
             print("palceholder error")
 
-        
 
 # displays list of commands
 def help():
@@ -224,17 +226,22 @@ def parse_english(command):
     # print(commandUsr)
 
     sql_lookup_state(commandDB, commandUsr)
-    # Take the command and convert to SQL parse
-
+    
+##    for rows in validInputs:
+##        for coloumns in rows:
+##            if (set(commandAlt) - set(validInputs[rows][coloumns])):
+##                pass
+##            else:
+##                print("INVALID FOUND")
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     if (set(commandAlt) - set(validCommands)):
         print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
     else:
         print("Sending command: " + str(commandAlt), "to database.")
-        
+##        sql_lookup_state(commandDB, commandUsr)
+##        # Take the command and convert to SQL parse        
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-
 
 
 def sql_lookup_state(commandDB, commandUsr):
@@ -252,7 +259,7 @@ def sql_lookup_state(commandDB, commandUsr):
 
         if row[0] not in list_of_results:
             list_of_results.append(row[0])
-
+    
     for i in range(len(list_of_results)):
         if (len(list_of_results) == 0):
             print("No Results Found")

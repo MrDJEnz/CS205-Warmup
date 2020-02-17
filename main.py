@@ -260,10 +260,11 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     elif str(list_unique_vars_db[1]) in table1:
         variable1 = "prim."
 
-    if str(list_unique_vars_db[2] in table2):
-        variable2 = "snd."
-    elif str(list_unique_vars_db[2] in table1):
-        variable2 = "prim."
+    if len(list_unique_vars_db) > 2:
+        if str(list_unique_vars_db[2] in table2):
+            variable2 = "snd."
+        elif str(list_unique_vars_db[2] in table1):
+            variable2 = "prim."
 
     if len(commandDB) == 2:
         for row in c.execute(

@@ -260,20 +260,41 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     elif str(list_unique_vars_db[1]) in table1:
         variable1 = "prim."
 
+    if str(list_unique_vars_db[2] in table2):
+        variable2 = "snd."
+    elif str(list_unique_vars_db[2] in table1):
+        variable2 = "prim."
 
-    for row in c.execute(
-            "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
-            " FROM " + tables[0] + " AS prim " +
-            " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-            " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+    if len(commandDB) == 2:
+        for row in c.execute(
+                "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
+                " FROM " + tables[0] + " AS prim " +
+                " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+                " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
 
-        if row[0] not in list_of_results:
-            list_of_results.append(row[0])
+            if row[0] not in list_of_results:
+                list_of_results.append(row[0])
 
-    for i in range(len(list_of_results)):
-        if (len(list_of_results) == 0):
-            print("No Results Found")
-        print(list_of_results[i])
+        for i in range(len(list_of_results)):
+            if (len(list_of_results) == 0):
+                print("No Results Found")
+            print(list_of_results[i])
+    elif len(commandDB) == 3:
+        for row in c.execute(
+                "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
+                " FROM " + tables[0] + " AS prim " +
+                " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+                " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"
+                " AND " + variable2 + str(list_unique_vars_db[2]) + "=" + "'" + str(list_unique_vars_usr[1]) + "'"):
+
+            if row[0] not in list_of_results:
+                list_of_results.append(row[0])
+
+        for i in range(len(list_of_results)):
+            if (len(list_of_results) == 0):
+                print("No Results Found")
+            print(list_of_results[i])
+
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

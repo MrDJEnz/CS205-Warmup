@@ -7,7 +7,7 @@ import pandas as pd
 import os.path
 from os import path
 import re
-validCommands = ["VALID1", "VALID2", "VALID3", "VALID4", "VALID5"]
+validCommands = ["State", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
 
 def main():
     # initialize database & parser
@@ -54,7 +54,7 @@ def help():
     print("help screen ... example command")
     print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
     print(" ")
-
+    print("Create a new database:  newdb")
     print("_____________________")
     print("Pizza Primary Table")
     print("--------------------")
@@ -205,6 +205,12 @@ def parse_english(command):
     ##commandLinked = " ".join(commandAlt)
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
+
+    print(commandAlt)
+    sql_lookup(commandAlt)
+    # Take the command and convert to SQL parse
+
+
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     if (set(commandAlt) - set(validCommands)):
         print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
@@ -212,5 +218,16 @@ def parse_english(command):
         print("Sending command: " + str(commandAlt), "to database.")
         
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+
+def sql_lookup(command):
+    list_unique_vars = command
+
+    print("SELECT " + "*" + " FROM " + "PizzaPrimary" + " WHERE " + str(list_unique_vars[0]) + "=" + str(list_unique_vars[1]))
+    conn = connection_to_db("Pizza.db")
+    c = conn.cursor()
+    t = (list_unique_vars[1],)
+    for row in c.execute("SELECT " + "*" + " FROM " + "PizzaPrimary" + " WHERE " + str(list_unique_vars[0]) + "=?", t):
+        print(row)
             
 main()

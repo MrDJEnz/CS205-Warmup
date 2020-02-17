@@ -189,6 +189,8 @@ def printdb():
 # test user command syntax
 def parse_english(command):
     # command = "SELECT TEMPORARY_COLOUMN"
+  
+  try:
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #
     #checking if user input contains any (valid) strings
@@ -229,7 +231,8 @@ def parse_english(command):
     else:
         sql_lookup_state(commandDB, commandUsr, commandAlt)
     # Take the command and convert to SQL parse
-
+  except:
+    print("Please enter correct psudo query formatting")
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     # if (set(commandAlt) - set(validCommands)):

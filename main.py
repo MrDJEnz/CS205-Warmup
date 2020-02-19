@@ -8,7 +8,7 @@ import os.path
 from os import path
 import re
 import shlex
-validCommands = ["State", "StateCode", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
+validCommands = ["State", "StateCode", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Coordinates"]
 
 def main():
     # initialize database & parser
@@ -119,7 +119,7 @@ def convert():
       # Pizza.db
       connection.execute('''CREATE TABLE PizzaPrimary ([Id] INTEGER PRIMARY KEY,[State] text, [PostalCode] integer,[Categories] text, [PriceRangeMax] integer)''')
           
-      connection.execute('''CREATE TABLE PizzaSecondary([Id]INTEGER PRIMARY KEY,[City] text,[Name] integer,[Address] text, [Latitude] integer,[Longitude] integer)''')
+      connection.execute('''CREATE TABLE PizzaSecondary([Id]INTEGER PRIMARY KEY,[City] text,[Name] integer,[Address] text, [Coordinates] text,[StateCode] text)''')
 
       read_PizzaPrim = pd.read_csv (r'PizzaPrim.csv')
       read_PizzaPrim.to_sql('PizzaPrimary', connection, if_exists='append', index = False) 
@@ -260,10 +260,7 @@ def parse_english(command):
     print("type load data, enter to create database")
     print("--------------------------------------------\n")
 
-
-        
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-
 
 
 def sql_lookup_state(commandDB, commandUsr, commandTotal):
@@ -277,10 +274,7 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     list_of_results = []
 
     table1 = ["State", "PostalCode", "Categories", "PriceRangeMax"]
-    table2 = ["City", "Name", "Address", "Latitude", "Longitude", "StateCode"]
-
-    if commandDB[0] in table1 and commandDB[1] in table1:
-        print("Both")
+    table2 = ["City", "Name", "Address", "Coordinates", "StateCode"]
 
     if str(list_unique_vars_db[0]) in table2:
         variable = "snd."
@@ -301,9 +295,6 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     if len(commandDB) < 3:
         # If both commands are in table 1
         if (commandDB[0] in table1) and (commandDB[1] in table1):
-            print("SELECT " + str(list_unique_vars_db[0]) +
-                                 " FROM " + tables[0] +
-                                 " WHERE " + str(list_unique_vars_db[1]) + "='" + str(list_unique_vars_usr[0]) + "'")
             for row in c.execute("SELECT " + str(list_unique_vars_db[0]) +
                                  " FROM " + tables[0] +
                                  " WHERE " + str(list_unique_vars_db[1]) + "='" + str(list_unique_vars_usr[0]) + "'"):
@@ -314,9 +305,6 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
 
         # If both commands are in table 2
         elif (commandDB[0] in table2) and (commandDB[1] in table2):
-            print("SELECT " + str(list_unique_vars_db[1]) +
-                                 " FROM " + tables[1] +
-                                 " WHERE " + str(list_unique_vars_db[0]) + "='" + str(list_unique_vars_usr[0]) + "'")
             for row in c.execute("SELECT " + str(list_unique_vars_db[1]) +
                                  " FROM " + tables[1] +
                                  " WHERE " + str(list_unique_vars_db[0]) + "='" + str(list_unique_vars_usr[0]) + "'"):
@@ -336,11 +324,6 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
 
 
     elif len(commandDB) == 3:
-        print( "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
-                " FROM " + tables[0] + " AS prim " +
-                " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-                " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"
-                " AND " + variable2 + str(list_unique_vars_db[2]) + "=" + "'" + str(list_unique_vars_usr[1]) + "'")
         for row in c.execute(
                 "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
                 " FROM " + tables[0] + " AS prim " +

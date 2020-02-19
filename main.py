@@ -56,7 +56,7 @@ def help():
     print("Welcome to the help screen")
     print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
     
-    print("If you haven't run newdb yet...")
+    print("If you haven't run load data yet...")
     print("you need to type, load data, enter")
     print("before any of the commands below")
     print("will work")

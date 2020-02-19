@@ -52,27 +52,40 @@ def main():
 
 # displays list of commands
 def help():
-    print("help screen ... example command")
+    
+    print("Welcome to the help screen")
     print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
     print(" ")
     print("Create a new database:  newdb")
     print("_____________________")
-    print("Pizza Primary Table")
-    print("--------------------")
-    print("State")
-    print("PostalCode")
-    print("Categories")
-    print("PriceRangeMax")
-    print("______________________")
-    print("Pizza Secondary Table")
+    print("Pizza Secondary Table (Table 1)")
     print("---------------------")
     print("City") ## NEED TO UPDATE TO 'pizza' syntax 
     print("Name")
     print("Address")
     print("Latitude")
     print("Longitude")
-    print("")
-
+    print("StateCode")
+    print("")    
+  
+    print("______________________")
+    print("Pizza Primary Table (Table 2")
+    print("--------------------")
+    print("State")
+    print("PostalCode")
+    print("Categories")
+    print("PriceRangeMax")
+    print("______________________")
+    print("Below are examples of valid commands")
+    print("---------------------")
+    print("Address State \"NY\"")
+    print("Name City Cincinnati")
+    print("Name State AZ City Phoenix")
+    print("Table2 Table1 option")
+    print("Table2 Table1 option Table2 option")
+    print("---------------------")
+    
+   
 
 def convert():
 

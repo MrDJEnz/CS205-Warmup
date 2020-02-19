@@ -8,7 +8,7 @@ import os.path
 from os import path
 import re
 import shlex
-validCommands = ["State", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
+validCommands = ["State", "StateCode", "PostalCode", "Categories", "PriceRangeMax", "City", "Name", "Address", "Latitude", "Longitude"]
 
 def main():
     # initialize database & parser
@@ -224,16 +224,6 @@ def parse_english(command):
     #commandAlt = re.sub("[^\w]", " ", command).split()
     commandAlt = shlex.split(command)
 
-    #iterate through list of user words .. check for invalid input
-    #for i in range(len(commandAlt)):
-##        if (commandAlt[i] != "VALID1") and (commandAlt[i] != "VALID2") and (commandAlt[i] != "VALID3"):
-##            print(commandAlt[i] + " is not a valid command")
-##        else:
-##            print("Sending command: " + commandAlt[i], "to database.")
-
-    ###OTHERWISE REASSEMBLE/CONVERT VALID COMMANDS TO SQL (MAY BE NEEDED LATER)
-    ##commandLinked = " ".join(commandAlt)
-    
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
 
     # print(commandAlt)
@@ -241,8 +231,6 @@ def parse_english(command):
     commandDB = []
     commandUsr = []
 
-
-    
     for i in commandAlt:
         if i not in validCommands:
             commandUsr.append(i)
@@ -263,24 +251,23 @@ def parse_english(command):
         sql_lookup_state(commandDB, commandUsr, commandAlt)
     # Take the command and convert to SQL parse
   except:
+    print("ERROR")
+    print("--------------------------------------------")
     print("Please enter correct psudo query formatting")
     print("Type help and then press enter")
     print("To see a list of valid commands")
     print("make sure you have run load data first")
     print("type load data, enter to create database")
+    print("--------------------------------------------\n")
 
-    # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
-    # if (set(commandAlt) - set(validCommands)):
-    #     print(str(set(commandAlt) - set(validCommands)) + ": are not a valid command")
-    # else:
-    #     print("Sending command: " + str(commandAlt), "to database.")
+
         
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 
 
 
 def sql_lookup_state(commandDB, commandUsr, commandTotal):
-    
+
   try:
     list_unique_vars_db = commandDB
     list_unique_vars_usr = commandUsr
@@ -292,6 +279,9 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     table1 = ["State", "PostalCode", "Categories", "PriceRangeMax"]
     table2 = ["City", "Name", "Address", "Latitude", "Longitude", "StateCode"]
 
+    if commandDB[0] in table1 and commandDB[1] in table1:
+        print("Both")
+
     if str(list_unique_vars_db[0]) in table2:
         variable = "snd."
     elif str(list_unique_vars_db[0]) in table1:
@@ -302,25 +292,55 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     elif str(list_unique_vars_db[1]) in table1:
         variable1 = "prim."
 
-    if len(list_unique_vars_db) > 2:
-        if str(list_unique_vars_db[2] in table2):
+    if len(list_unique_vars_db) == 3:
+        if (list_unique_vars_db[2] in table2):
             variable2 = "snd."
-        elif str(list_unique_vars_db[2] in table1):
+        else:
             variable2 = "prim."
 
-    if len(commandDB) == 2:
-        for row in c.execute(
-                "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
-                " FROM " + tables[0] + " AS prim " +
-                " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-                " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+    if len(commandDB) < 3:
+        # If both commands are in table 1
+        if (commandDB[0] in table1) and (commandDB[1] in table1):
+            print("SELECT " + str(list_unique_vars_db[0]) +
+                                 " FROM " + tables[0] +
+                                 " WHERE " + str(list_unique_vars_db[1]) + "='" + str(list_unique_vars_usr[0]) + "'")
+            for row in c.execute("SELECT " + str(list_unique_vars_db[0]) +
+                                 " FROM " + tables[0] +
+                                 " WHERE " + str(list_unique_vars_db[1]) + "='" + str(list_unique_vars_usr[0]) + "'"):
 
-            if row[0] not in list_of_results:
-                list_of_results.append(row[0])
+                if row[0] not in list_of_results:
+                    list_of_results.append(row[0])
 
+
+        # If both commands are in table 2
+        elif (commandDB[0] in table2) and (commandDB[1] in table2):
+            print("SELECT " + str(list_unique_vars_db[1]) +
+                                 " FROM " + tables[1] +
+                                 " WHERE " + str(list_unique_vars_db[0]) + "='" + str(list_unique_vars_usr[0]) + "'")
+            for row in c.execute("SELECT " + str(list_unique_vars_db[1]) +
+                                 " FROM " + tables[1] +
+                                 " WHERE " + str(list_unique_vars_db[0]) + "='" + str(list_unique_vars_usr[0]) + "'"):
+
+                if row[0] not in list_of_results:
+                    list_of_results.append(row[0])
+
+        else:
+            for row in c.execute(
+                    "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
+                    " FROM " + tables[0] + " AS prim " +
+                    " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+                    " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
+
+                if row[0] not in list_of_results:
+                    list_of_results.append(row[0])
 
 
     elif len(commandDB) == 3:
+        print( "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
+                " FROM " + tables[0] + " AS prim " +
+                " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
+                " WHERE " + variable1 + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"
+                " AND " + variable2 + str(list_unique_vars_db[2]) + "=" + "'" + str(list_unique_vars_usr[1]) + "'")
         for row in c.execute(
                 "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
                 " FROM " + tables[0] + " AS prim " +
@@ -333,17 +353,24 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
 
 
     if (len(list_of_results) == 0):
-        print("No Results Found")
+        print("\nNo Results Found\n")
     else:
+        print("\nResults")
+        print("------------------------------------")
         for i in range(len(list_of_results)):
-            print(list_of_results[i])
+            print(str(i+1) + ". " + list_of_results[i])
+        print("------------------------------------\n")
 
   except:
-        print("That is not an accepted command")
+        print("ERROR")
+        print("------------------------------------")
+        print("That is not an accepted command...")
         print("Type help and then press enter")
         print("To see a list of valid commands")
-        print("make sure you have run load data first")
-        print("type load, enter to create database")  
+        print("Make sure you have run load data first")
+        print("type load data, enter to create database")
+        print("------------------------------------\n")
+
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

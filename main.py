@@ -32,7 +32,7 @@ def main():
                 #disconnects from database and ends program
                 # connection.close()
                 break
-            elif myinput == "newdb":
+            elif myinput == "load data":
                 convert()
             elif myinput == "printdb":
                 printdb()

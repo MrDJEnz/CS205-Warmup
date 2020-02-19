@@ -261,7 +261,7 @@ def parse_english(command):
     print("Type help and then press enter")
     print("To see a list of valid commands")
     print("make sure you have run newdb")
-    print("type newdb, enter to create database)
+    print("type newdb, enter to create database")
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     # if (set(commandAlt) - set(validCommands)):
@@ -337,7 +337,7 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
         print("Type help and then press enter")
         print("To see a list of valid commands")
         print("make sure you have run newdb")
-        print("type newdb, enter to create database)  
+        print("type newdb, enter to create database")  
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

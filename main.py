@@ -251,6 +251,8 @@ def parse_english(command):
     # Take the command and convert to SQL parse
   except:
     print("Please enter correct psudo query formatting")
+    print("Type help and then press enter")
+    print("To see a list of valid commands")
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     # if (set(commandAlt) - set(validCommands)):
@@ -323,6 +325,8 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
 
   except:
         print("That is not an accepted command")
+        print("Type help and then press enter")
+        print("To see a list of valid commands")
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

@@ -210,6 +210,12 @@ def printdb():
 def parse_english(command):
     # command = "SELECT TEMPORARY_COLOUMN"
   
+  if path.exists("Pizza.db"):
+    i = 3
+  else:
+    convert()   
+
+
   try:
     
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL ~~~~~~~~~~~~~ #

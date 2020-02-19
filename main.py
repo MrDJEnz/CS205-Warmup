@@ -215,17 +215,26 @@ def parse_english(command):
     commandDB = []
     commandUsr = []
 
+##    for i in commandAlt:
+##        if i in validCommands:
+##            commandDB.append(i)
+##        else:
+##            commandUsr.append(i)
+    
     for i in commandAlt:
-        if i in validCommands:
-            commandDB.append(i)
-        else:
+        if i not in validCommands:
             commandUsr.append(i)
-
+            print(i, "is an invalid command")
+            print("Try this format: Name State 'STATE_INITIALS' City 'CITY_NAME'")
+        else:
+            commandDB.append(i)
+            
     # print("Database Commands")
     # print(commandDB)
     #
     # print("Usr commands")
     # print(commandUsr)
+    
     if len(commandDB) == 0 :
         print("Incorrect Parse please type 'help' for more information...")
     else:

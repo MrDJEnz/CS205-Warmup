@@ -57,12 +57,12 @@ def help():
     print("FORMAT TO PARSE DATA AS FOLLOWS: ...")
     
     print("If you haven't run newdb yet...")
-    print("you need to type, newdb, enter")
+    print("you need to type, load data, enter")
     print("before any of the commands below")
     print("will work")
     
     print(" ")
-    print("Create a new database:  newdb")
+    print("Create a new database:  load data")
     print("_____________________")
     print("Pizza Secondary Table (Table 1)")
     print("---------------------")
@@ -266,8 +266,8 @@ def parse_english(command):
     print("Please enter correct psudo query formatting")
     print("Type help and then press enter")
     print("To see a list of valid commands")
-    print("make sure you have run newdb")
-    print("type newdb, enter to create database")
+    print("make sure you have run load data first")
+    print("type load data, enter to create database")
 
     # Check if user input contains any invalid commands and print difference, otherwise run commands in that order
     # if (set(commandAlt) - set(validCommands)):
@@ -342,8 +342,8 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
         print("That is not an accepted command")
         print("Type help and then press enter")
         print("To see a list of valid commands")
-        print("make sure you have run newdb")
-        print("type newdb, enter to create database")  
+        print("make sure you have run load data first")
+        print("type load, enter to create database")  
     # if  list_unique_vars_db[1] == "State":
     #
     #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +

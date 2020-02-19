@@ -215,17 +215,13 @@ def parse_english(command):
     commandDB = []
     commandUsr = []
 
-##    for i in commandAlt:
-##        if i in validCommands:
-##            commandDB.append(i)
-##        else:
-##            commandUsr.append(i)
+
     
     for i in commandAlt:
         if i not in validCommands:
             commandUsr.append(i)
-            print(i, "is an invalid command")
-            print("Try this format: Name State 'STATE_INITIALS' City 'CITY_NAME'")
+            # print(i, "is an invalid command")
+            # print("Try this format: Name State 'STATE_INITIALS' City 'CITY_NAME'")
         else:
             commandDB.append(i)
             
@@ -292,10 +288,8 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
             if row[0] not in list_of_results:
                 list_of_results.append(row[0])
 
-        for i in range(len(list_of_results)):
-            if (len(list_of_results) == 0):
-                print("No Results Found")
-            print(list_of_results[i])
+
+
     elif len(commandDB) == 3:
         for row in c.execute(
                 "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
@@ -307,9 +301,11 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
             if row[0] not in list_of_results:
                 list_of_results.append(row[0])
 
+
+    if (len(list_of_results) == 0):
+        print("No Results Found")
+    else:
         for i in range(len(list_of_results)):
-            if (len(list_of_results) == 0):
-                print("No Results Found")
             print(list_of_results[i])
 
   except:

@@ -1,7 +1,14 @@
 # CS205 Warm up (Team 8)
 # January 27, 2020
+'''
+Authors:
+Nick Corwin
+Jacob Drake
+Duncan Enzmann
+Kevin Yeung
+'''
 
-# possibly needed module for later sql functionality
+
 import sqlite3
 import pandas as pd
 import os.path
@@ -48,8 +55,6 @@ def main():
         except (RuntimeError):
             print("palceholder error")
 
-        
-
 # displays list of commands
 def help():
     
@@ -66,7 +71,7 @@ def help():
     print("_____________________")
     print("Pizza Secondary Table (Table 1)")
     print("---------------------")
-    print("City") ## NEED TO UPDATE TO 'pizza' syntax 
+    print("City")
     print("Name")
     print("Address")
     print("Latitude")
@@ -87,6 +92,7 @@ def help():
     print("Address State \"NY\"")
     print("Name City Cincinnati")
     print("Name State AZ City Phoenix")
+    print("Table1 Table1 option")
     print("Table2 Table1 option")
     print("Table2 Table1 option Table2 option")
     print("---------------------")
@@ -127,9 +133,6 @@ def convert():
 
       read_PizzaNotPrim = pd.read_csv (r'PizzaNotPrim.csv')
       read_PizzaNotPrim.to_sql('PizzaSecondary', connection, if_exists='replace', index = False) # Replace the values from the csv file into the table 'COUNTRY'
-
-      #df = pointer.execute("SELECT * FROM PizzaPrim")
-      #print(df)
 
       print("DataBase loaded to LocalHost")
 
@@ -222,6 +225,7 @@ def parse_english(command):
     #checking if user input contains any (valid) strings
     #split command by spaces and store in list
     #commandAlt = re.sub("[^\w]", " ", command).split()
+    # Using Shlex Library to clean up the regex parser to include quotations
     commandAlt = shlex.split(command)
 
 # ~~~~~~~~~~~~ PARSING STRING INPUT (OUTPUTS) VALID SQL [UPDATED] ~~~~~~~~~~~~~ #
@@ -231,25 +235,18 @@ def parse_english(command):
     commandDB = []
     commandUsr = []
 
+    # Check if the regex split command is a DB command or user input inside the columns
     for i in commandAlt:
         if i not in validCommands:
             commandUsr.append(i)
-            # print(i, "is an invalid command")
-            # print("Try this format: Name State 'STATE_INITIALS' City 'CITY_NAME'")
         else:
             commandDB.append(i)
-            
-    # print("Database Commands")
-    # print(commandDB)
-    #
-    # print("Usr commands")
-    # print(commandUsr)
-    
-    if len(commandDB) == 0 :
+    # If there are no DB commands then there is nothing to query
+    if len(commandDB) == 0:
         print("Incorrect Parse please type 'help' for more information...")
     else:
         sql_lookup_state(commandDB, commandUsr, commandAlt)
-    # Take the command and convert to SQL parse
+    # Throw an error
   except:
     print("ERROR")
     print("--------------------------------------------")
@@ -262,10 +259,18 @@ def parse_english(command):
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 
+# State to run sqlite3 on
+'''
 
+Inputs: Database Commands, User Commands
+Does: Runs SQL on english commands and converts into a SQL standard lookup
+Prints: The result of the lookup
+
+'''
 def sql_lookup_state(commandDB, commandUsr, commandTotal):
 
   try:
+    # Gets the user and DB commands, and loads the table names
     list_unique_vars_db = commandDB
     list_unique_vars_usr = commandUsr
     tables = ["PizzaPrimary", "PizzaSecondary"]
@@ -273,9 +278,11 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
     c = conn.cursor()
     list_of_results = []
 
+    # Column names in each database
     table1 = ["State", "PostalCode", "Categories", "PriceRangeMax"]
     table2 = ["City", "Name", "Address", "Coordinates", "StateCode"]
 
+    # Determine which table to be looking at for the database commands
     if str(list_unique_vars_db[0]) in table2:
         variable = "snd."
     elif str(list_unique_vars_db[0]) in table1:
@@ -292,7 +299,11 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
         else:
             variable2 = "prim."
 
+    # If we only have 2 DB commands i.e. Name State AR
+    # What is the name of the restaurant(s) in the state of Arkansas
+    # Run one of three cases
     if len(commandDB) < 3:
+
         # If both commands are in table 1
         if (commandDB[0] in table1) and (commandDB[1] in table1):
             for row in c.execute("SELECT " + str(list_unique_vars_db[0]) +
@@ -313,6 +324,7 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
                     list_of_results.append(row[0])
 
         else:
+        # If the commands are split between the two tables
             for row in c.execute(
                     "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
                     " FROM " + tables[0] + " AS prim " +
@@ -322,7 +334,9 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
                 if row[0] not in list_of_results:
                     list_of_results.append(row[0])
 
-
+    # If the user asks for 3 commands i.e.
+    # Name State AR PostalCode 72120
+    # What is the name of the restaurant(s) in the State of Arkansas where the postalcode is 72120
     elif len(commandDB) == 3:
         for row in c.execute(
                 "SELECT " + variable + str(list_unique_vars_db[0]) + ", " + variable1 + str(list_unique_vars_db[1]) +
@@ -334,7 +348,7 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
             if row[0] not in list_of_results:
                 list_of_results.append(row[0])
 
-
+    # Determine what to print for the user
     if (len(list_of_results) == 0):
         print("\nNo Results Found\n")
     else:
@@ -344,6 +358,17 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
             print(str(i+1) + ". " + list_of_results[i])
         print("------------------------------------\n")
 
+
+    # not sure what this is doing
+    conn.commit()
+
+    #Closing connections, online blurb said
+    # sometimes if you don't close the connections it crates
+    # problems
+    c.close()
+    conn.close()
+
+  # Throws an error
   except:
         print("ERROR")
         print("------------------------------------")
@@ -354,36 +379,9 @@ def sql_lookup_state(commandDB, commandUsr, commandTotal):
         print("type load data, enter to create database")
         print("------------------------------------\n")
 
-    # if  list_unique_vars_db[1] == "State":
-    #
-    #     for row in c.execute("SELECT " + "snd."+str(list_unique_vars_db[0]) + ", " + "prim."+str(list_unique_vars_db[1]) +
-    #                          " FROM " + tables[0] + " AS prim " +
-    #                          " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-    #                          " WHERE prim." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
-    #
-    #         if row[0] not in list_of_results:
-    #             list_of_results.append(row[0])
-    #
-    #     for i in range(len(list_of_results)):
-    #         if (len(list_of_results) == 0):
-    #             print("No Results Found")
-    #         print(list_of_results[i])
-    #
-    # elif list_unique_vars_db[1] == "City":
-    #     for row in c.execute(
-    #         "SELECT " + "snd." + str(list_unique_vars_db[0]) + ", " + "prim." + str(list_unique_vars_db[1]) +
-    #         " FROM " + tables[0] + " AS prim " +
-    #         " JOIN " + tables[1] + " AS snd " + " ON " + "prim.State=snd.StateCode" +
-    #         " WHERE snd." + str(list_unique_vars_db[1]) + "= " + "'" + str(list_unique_vars_usr[0]) + "'"):
-    #
-    #         if row[0] not in list_of_results:
-    #             list_of_results.append(row[0])
-    #
-    #     for i in range(len(list_of_results)):
-    #         if (len(list_of_results) == 0):
-    #             print("No Results Found")
-    #         print(list_of_results[i])
 
 
-            
-main()
+# Run the code
+if __name__ == '__main__':
+    main()
+
